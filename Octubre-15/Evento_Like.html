@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Me gusta</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<title>Network Feed</title>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Network</h1>
+        </header>
+        <div class="profile-section">
+            <div class="img"></div>
+            <img src="./img/perfil.png">
+                <p>Mirsson Rosas Bustos</p>
+        </div>
+        <div class="historial">
+            <h2>Your Feed</h2>
+
+            <div class="posteos">
+                <p><strong>Scorpion</strong></p>
+                <p>Acabo de configurar este nuevo bot de Discord, cuénteme que opinan ustedes. <a href="#">link</a></p>
+                <div class="accion">
+                    <p  id="likes-1">0 like(s)</p>
+                    <button class="like-btn" onclick="increaseLikes('likes-1')">Like</button>
+                </div>
+            </div>
+
+            <div class="posteos">
+                <p><strong>Super Man</strong></p>
+                <p>Acabo de terminar este <a href="#">nuevo comic</a>, denle un vistazo.</p>
+                <div class="accion">
+                    <p  id="likes-2">0 like(s)</p>
+                    <button class="like-btn" onclick="increaseLikes('likes-2')">Like</button>
+                </div>
+            </div>
+
+            <div class="posteos">
+                <p><strong>Mario Bros</strong></p>
+                <p>No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?</p>
+                <div class="accion">
+                    <p  id="likes-3">0 like(s)</p>
+                    <button class="like-btn" onclick="increaseLikes('likes-3')">Like</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+</body>
+</html>
+
+<script>
+    function increaseLikes(id) {
+        const likeCountElement = document.getElementById(id);
+        let currentLikes = parseInt(likeCountElement.textContent);
+        currentLikes++;
+        likeCountElement.textContent = `${currentLikes} like(s)`;
+    }
+</script>

@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.historial>h2{
+    margin: 60px;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+}
+
+.contenedor {
+    display: flex; 
+    align-items:flex-start;
+    margin-bottom: 30%;
+    margin: 10px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    text-align: center;
+}
+
+.img{
+    width: 100px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+    margin: 60px;
+}
+
+.posteos {
+    width: 80%; 
+}
+
+.posteos h2 {
+text-align: center;
+}
+
+.posteos {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px;
+    border: solid black;
+}
+
+.posteos p {
+    margin: 5px 0;
+}
+
+.accion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like-btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.like-btn:hover {
+    background-color: #e0a800;
+}
+.contenedor>div>img{
+    margin:45px;
+}
+.profile-section{
+    border-radius: 20px;
+    margin:15px;
+}

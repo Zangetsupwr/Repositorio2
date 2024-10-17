@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petlopedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Petlopedia</h1>
+        <input type="text" placeholder="Buscar mascotas">
+        <button id="btnSesion" onclick="cambiarTextoSesion()">Iniciar sesión</button>
+    </header>
+    <div class="main">
+        <section class="definition-list">
+            <div class="definition">
+                <h2 id="tituloGato">Gato Atigrado</h2>
+                <p><strong>Plural:</strong> Gatos Atigrados</p>
+                <p>Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con
+                    una marca en forma de "M" en su frente.</p>
+                <button  onclick="meGusta('tituloGato')">22 me gusta</button>
+            </div>
+
+            <div class="definition">
+                <h2 id="tituloGolden">Golden Retriever</h2>
+                <p><strong>Plural:</strong> Golden Retrievers</p>
+                <p>Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para
+                    recuperar objetos sin dañarlos.</p>
+                <button onclick="meGusta('tituloGolden')">45 me gusta</button>
+            </div>
+        </section>
+        <div class="footer">
+            <p>Petlopedia está definida por TI</p>
+            <button id="btnAgregar" onclick="eliminarBoton()">Agregar Definición</button>
+        </div>
+    </div>
+    <script>
+        //Boton de sessión:
+        function cambiarTextoSesion() {
+            const botonSesion = document.getElementById('btnSesion');
+
+            if (botonSesion.textContent === 'Iniciar sesión') {
+                botonSesion.textContent = 'Cerrar sesión';
+            } else {
+                botonSesion.textContent = 'Iniciar sesión';
+            }
+        }
+
+        //Eliminar el boton: 
+        function eliminarBoton() {
+            const botonAgregar = document.getElementById('btnAgregar');
+            botonAgregar.remove();
+        }
+        // Dar like al boton: 
+            function meGusta(idTitulo) {
+            const titulo = document.getElementById(idTitulo).textContent;
+            alert(`Fue Likeado: ${titulo}`);
+        }
+    </script>
+</body>
+
+</html>
