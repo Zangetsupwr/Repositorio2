@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:16px;
+
+}
+article{
+    border: 2px solid darkgray;
+    margin: 16px 0px;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+#deluxeimg{
+    height: 120px;
+    transform: scale(1);
+}
