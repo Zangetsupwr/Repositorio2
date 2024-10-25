@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen - 21 de Octubre 2024</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+       <!--Contenedor izquierdo -->
+    <div class="container">
+        <aside>
+            <h2><span>miau</span><span class="higlight">love</span></h2>
+            <img src="./assets/logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Subir Imagen</li>
+                    <li> Contacto</li>
+                    <li>Favoritos</li>
+                    <li>Recientes</li>
+                </ul>
+                <button class="btn1">Configuracion</button>
+                <button class="btn2" onclick="BtncerrarSession()">Cerrar Session</button>
+            </nav>
+            <footer>
+                Todos los Derechos Reservados ©MiauLove
+            </footer>
+        </aside>
+     <!------------------------------------------------------------------>
+        <!-- La barra de Busqueda-->
+        <main>
+            <header>
+                <div class="barra-busqueda">
+                    <img class="hamburgueza" src="./assets/menu.png" alt="menu">
+                    <input class="text" type="text" placeholder="Buscar...">
+                    <img class="buscar" src="./assets/buscar.png" alt="buscar">
+                </div>
+            </header>
+               <!--------------------------------------------------------------->
+            <!-----Contenedor Derecho-------------------------------------->  
+            <div class="contenido">
+                <div class="titulo">
+                    <h1>!Únete y comparte tu amor por los gatitos!</h1>
+                    <div class="botones">
+                        <button onclick="BtncambiarColor(this)">Gatitos</button>
+                        <button onclick="BtncambiarColor(this)">Juveniles</button>
+                        <button onclick="BtncambiarColor(this)">Adultos</button>
+                    </div>
+                </div>
+                <div class="imagenes">
+                    <img src="./assets/gato1.jpg" alt="gato1">
+                    <img src="./assets/gato2.jpg" alt="gato2">
+                    <img src="./assets/gato3.png" alt="gato3">
+                    <img src="./assets/gato4.png" alt="gato4">
+                </div>
+                <div class="corazon">
+                    <button onclick="darLike('likes-1')"><img src="./assets/like.png" alt="gato1"><span id="likes-1">1</span></button>
+                    <button onclick="darLike('likes-2')"><img src="./assets/like.png" alt="gato2"><span id="likes-2">2</span></button>
+                    <button onclick="darLike('likes-3')"><img src="./assets/like.png" alt="gato3"><span id="likes-3">3</span></button>
+                    <button onclick="darLike('likes-4')"><img src="./assets/like.png" alt="gato4"><span id="likes-4">4</span></button>
+                </div>
+            </div>
+        </main>
+    </div>
+ <!------------------------------------------------------------------------------------------------>
+</body>
+</html>

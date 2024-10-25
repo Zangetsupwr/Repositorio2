@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="app-title">
+            <img src="./assets/logo.png" alt="logo">
+            <h1>Hug Express</h1>
+        </div>
+        <div class="app-search">
+            <input type="text"></input>
+            <button>Buscar</button>
+        </div>
+        <h2 onclick="handleAlert()">¿Como Funciona?</h2>
+    </header>
+    <nav>
+        <img src="./assets/home.png" alt="home">
+        <h3>></h3>
+        <h3>Amigos></h3>
+        <h3>Enviar></h3>
+        <h3>Abrazos</h3>
+    </nav>
+    <main>
+        <section>
+            <div class="card">
+                <img src="./assets/horacio.png" alt="foto">
+                <div class="card-info">
+                    <h2>Horacio Olivera</h2>
+                    <p>Soy Horacio Olivera mi libro preferido es Ravuela de Julio Cortazar</p>
+                    <p>Amigos desde el 24 de julio 2024</p>
+                </div>
+                <div>
+                    <p data-hugs="4">4 abrazos</p>
+                    <button onclick="handleLike (this)">Enviar Abrazo</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/horacio.png" alt="foto">
+                <div class="card-info">
+                    <h2>Horacio Olivera</h2>
+                    <p>Soy Horacio Olivera mi libro preferido es Ravuela de Julio Cortazar</p>
+                    <p>Amigos desde el 24 de julio 2024</p>
+                </div>
+                <div>
+                    <p data-hugs="6">6 abrazos</p>
+                    <button onclick="handleLike (this)">Enviar Abrazo</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/horacio.png" alt="foto">
+                <div class="card-info">
+                    <h2>Horacio Olivera</h2>
+                    <p>Soy Horacio Olivera mi libro preferido es Ravuela de Julio Cortazar</p>
+                    <p>Amigos desde el 24 de julio 2024</p>
+                </div>
+                <div>
+                    <p data-hugs="6">6 abrazos</p>
+                    <button onclick="handleLike (this)">Enviar Abrazo</button>
+                </div>
+            </div>
+        </section>
+        <aside>
+            <h2>Somos la primera plataforma diseñada para enviar abrazos a tu familiares</h2>
+            <h2>La distancia de los abrazos </h2>
+        </aside>
+    </main>
+    <div class="cookies">
+        <img src="./assets/cookies.png" alt="cookies">
+        <p>Hug Express utliza cookies para optimizar la navegacion y personalizarla segun su preferencia. Al hacer click
+            en Acpetar estas de acuerdo con nuestra<a href="#">privacidad</a>
+        </p>
+        <button onclick="handleAcceptCookies()">Aceptar</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1><span class="flor">Flor</span>Manía</h1>
+        <div class="barra">
+            <h2 onmouseover="enviarFlores(event)">Envia Flores</h2>
+            <h2>Nosotros</h2>
+            <button onclick="iniciSesion(event)">Iniciar Sesion</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>Girasoles</li>
+            <li>Rosas</li>
+            <li>Claveles</li>
+            <li>Orquideas</li>
+            <li>Margaritas</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="contenedor">
+            <div class="subcontenedor">
+                <h2>FLOR DEL MES</h2>
+                <img src="./assets/flor-del-mes.jpg" alt="Flor">
+            </div>
+            <div class="barrita">
+                <h3>Mostrando 50 resultados</h3>
+                <a href="#">Ver mas flores</a>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div class="info">
+            <div class="info1">
+                <img src="./assets/ramo-de-rosas.jpg" alt="Flor">
+                <h3>Ramo de Rosas</h3>
+                <p>$40.00</p>
+                </div>
+            <div class="btn">
+                <button onclick="comprarProducto(event)">Comprar</button>
+            </div>
+            <div>
+                <img src="./assets/arreglo-tulipanes.jpg" alt="Flor">
+                <h3>Arreglo Tulipanes</h3>
+                <p>$50.00</p>
+                </div>
+            <div class="btn">
+                <button onclick="comprarProducto(event)">Comprar</button>
+            </div>
+            <div>
+                <img src="./assets/bouquet-lirios.jpg" alt="Flor">
+                <h3>Bouquet de Lirios</h3>
+                <p>$25.00</p>
+                </div>
+            <div class="btn">
+                <button onclick="comprarProducto(event)">Comprar</button>
+            </div>
+        </div>  
+        <footer>
+            <p>Copyright © 2024 FlorManía</p>
+        </footer>
+    </aside>
+</body>
+
+</html>

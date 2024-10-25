@@ -1,0 +1,154 @@
+/*-----PLANTILLA DE INICIO-------*/
+* {
+    padding: 0;
+    margin: 0;
+    /*outline: 2px dashed black;*/
+    box-sizing: border-box;
+}
+
+body {
+    width: 720px;
+    margin: 0 auto;
+}
+/*------------------------*/
+header{
+    background-color: lightgrey;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 48px;
+}
+
+.app-title{
+    background-color: mediumpurple ;
+    padding: 16px;
+    gap: 16px;
+}
+
+.app-title h1{
+    font-size: 26px;
+}
+
+.app-search>input {
+    border-radius: 8px 0px 0px 8px;
+}
+
+header h2{
+    margin-right: 16px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 16px;
+    height: 36px;
+    border-bottom: 2px solid black;
+}
+
+nav img{
+    height: 16px;
+}
+
+nav h3{
+    font-size: 16px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    min-height: 200px;
+    width: 600px;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+aside{
+    min-height: 200px;
+    width: 200px;
+    background-color: mediumpurple;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px;
+    gap: 16px;
+}
+
+
+/*estilos carta*/
+
+.card{
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    padding: 16px;
+    gap: 16px;
+}
+
+.card img{
+    height: 128px;
+}
+
+.card>div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card>div>div:last-child{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card button{
+    background-color: mediumpurple;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+aside>h2{
+    text-align: center;
+    font-weight: normal;
+}
+
+aside>h2>span{
+    color: white;
+    font-weight: bold;
+}
+
+aside>h2:last-child{
+    text-decoration: underline;
+}
+
+.cookies{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    border: 2px solid black;
+    padding: 16px;
+    position: absolute;
+    bottom: 0;
+    width: 720px;
+    background-color: white;
+}

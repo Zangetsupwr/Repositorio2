@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 720px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #d8a5bc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flor {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.barra h2 {
+    margin: 11px;
+}
+
+.barra button {
+    border: solid 4px black;
+    height: 25px;
+    box-shadow: 10px 5px 5px black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    height: 50px;
+}
+
+ul li {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+main img {
+    width: 760px;
+    padding: 25px
+}
+
+.barrita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.barrita h3 {
+    margin-right: 350px;
+    font-family: cursive
+}
+
+.barrita>a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+aside img {
+    margin-left: -100px;
+    width: 310px;
+}
+
+aside h3 {
+    margin-left: 30px;
+}
+
+aside p {
+    margin: 25px
+}
+
+aside button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-left:-95px;
+    margin-top: 160px;
+    border: solid black 3px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside button {
+    background-color: #d8a5bc;
+    color: white;
+    width: 85px;
+    height: 30px;
+    box-shadow: 10px 5px 5px black;
+    ;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #9c6a83;
+}
+
+footer {
+    background-color: #9c6a83;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+aside p{
+    margin-top: 0px;
+}

@@ -20,5 +20,5 @@ function handleMouseOver(elemento) {
             scale +=0.1;
             elemento.style.transform =`scale(${scale})`;
         }
-    }   
+    }  
 )}

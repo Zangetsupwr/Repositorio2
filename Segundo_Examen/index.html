@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <img src="./assets/logo.png" alt="logo">
+            <h1><span>Taco</span>Palace</h1>
+            <input id="username" type="text" placeholder="email">
+            <button id="loginBtn">Login</button>
+            <img  src="./assets/carrito.png" alt="carro" >
+            <h4 id="carritoCantidad">0</h4>
+        </div>
+    </header>
+    <nav>
+        <div class="menu">
+            <img src="./assets/enchiladas.jpg" alt="tacos">
+            <h5>Enchiladas</h5>
+            <div class="taco"><img src="./assets/tacos.jpg" alt="tacos"></div>
+            <h5>Tacos</h5>
+            <img src="./assets/flautas.jpg" alt="tacos">
+            <h5>Flautas</h5>
+            <img src="./assets/gorditas.jpg" alt="tacos">
+            <h5>Gorditas</h5>
+            <img src="./assets/tostadas.jpg" alt="tacos">
+            <h5>Tostadas</h5>
+            <img src="./assets/tacos.jpg" alt="tacos">
+            <h5>Enfrijoladas</h5>
+        </div>
+    </nav>
+    <aside>
+        <div class="subcontenedor">
+            <div class="info">
+                <h2>La mejor variedad en platillos de comida mexicana</h2>
+                <h3>Contamos con servicio a domicilio</h3>
+            </div>
+            <img id="imagen" src="./assets/comida-mexicana.jpg">
+        </div>
+        <div class="recomendacion">
+            <h1>Recomendados:</h1>
+            <img src="./assets/orden-tacos.jpg" alt="mapa">
+            <h3>Orden de tacos</h3>
+            <a href="#">Ver mas</a>
+            <button class="btn" onclick="aumentarCarrito(this)"><img src="./assets/plus.png" alt="circulo"></button>
+            <div class="recomendacion">
+                <img src="./assets/orden-flautas.jpg" alt="mapa">
+                <h3>Orden de flauta </h3>
+                <a href="#">Ver mas</a>
+                <button class="btn" onclick="aumentarCarrito(this)"><img src="./assets/plus.png" alt="circulo"></button>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <p>Copyright © 2024 TacoPalace</p>
+    </footer>
+</body>
+</html>

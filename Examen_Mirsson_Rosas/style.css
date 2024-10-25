@@ -1,0 +1,169 @@
+/*Plantilla inicial*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ /*outline: 2px dashed black;*/
+}
+
+body {
+    width: 770px;
+    margin: 0 auto;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/*------------------------*/
+
+/*Aqui se empieza con los estilos de la pagina*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d48da7;
+    height: 90px;
+    border: solid;
+}
+
+.btn1 {
+    background-color: #c594ac;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: #601637;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+
+}
+
+.contenido h1 {
+    text-align: center;
+    margin-top: 35px;
+}
+
+aside {
+    width: 270px;
+    height: 804px;
+}
+
+aside h2 {
+    margin: 40px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    margin: auto;
+    border-radius:999px
+}
+
+.imagenes {
+    display: flex;
+    margin: 20px;
+}
+
+aside img {
+    width: 35px;
+    margin-left: 85px;
+
+}
+
+aside {
+    border: solid 2px black;
+}
+
+ul li {
+    list-style: none;
+    margin: 40px;
+    text-align: center;
+}
+
+.contenido button {
+    border-radius: 75px;
+    width: 125px;
+    height: 40px;
+    margin-bottom: 60px;
+    margin: 0px 10px 60px;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.titulo h1 {
+    margin-bottom: 140px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+nav button {
+    border: solid 3px black;
+    width: 100px;
+    min-height: 45px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 40px;
+}
+
+.barra-busqueda img {
+    width: 25px;
+}
+
+.hamburgueza {
+    margin-right: 280px;
+}
+
+.container .higlight {
+    color: #d48da7;
+}
+
+.corazon button {
+    color: red;
+    margin: 10px 0px 106px;
+    margin-left: 15px;
+}
+
+.botones button {
+    background-color: #d09cb5;
+    font-weight: bold;
+}
+
+.titulo h1 {
+    font-size: 60px;
+}
+
+.buscar {
+    border: solid;
+    background-color: #601637;
+    margin-left: 10px;
+}
+
+.contenido {
+    border: solid 3px;
+}
+
+.text {
+    border: solid 3px;
+    padding: 5px;
+    margin: 0px 0px 9px;
+}
+.corazon img{
+    width: 10px;
+}
