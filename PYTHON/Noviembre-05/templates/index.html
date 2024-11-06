@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<h1>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola desde Flask CTM</h1>
+    <p>Que es el framework flask?</p>
+    <h1>Estudiantes: </h1>
+    <ol>
+        {% for estudiante in estudiantes %}
+        <li>
+            {{estudiante['nombre']}} - {{estudiante['edad']}}
+            {% if estudiante['edad'] >= 30: %}
+            (Adulto)
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ol>
+        <p>Flask es un micro framework para desarrollo web en Python. Es conocido por su simplicidad y flexibilidad, ya que te permite crear aplicaciones web rápidamente 
+            sin la necesidad de una configuración compleja. Algunas de sus características clave incluyen:</p>
+        <ul>
+            <li><strong>Ligero y Minimalista:</strong> A diferencia de otros frameworks más completos, Flask tiene un núcleo pequeño y añade características solo cuando las necesitas.</li>
+        
+            <li><strong>Extensible:</strong> Puedes añadir extensiones que proveen características similares a las de frameworks más grandes, como manejo de formularios, autenticación, y más.</li>
+        
+            <li><strong>Servidor de Desarrollo Integrado:</strong> Incluye un servidor de desarrollo para que puedas probar tu aplicación sin necesidad de configuración adicional.</li>
+        
+            <li><strong>Soporte para Testing:</strong> Facilita la creación de pruebas unitarias para asegurarte de que tu código funciona correctamente.</li>
+        
+            <li><strong>Compatibilidad con Jinja2:</strong> Utiliza Jinja2 como motor de plantillas, lo que te permite generar HTML dinámico fácilmente.</li>
+        </ul>
+</body>
+</html>

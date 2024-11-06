@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Libroteca</h1>
+        <img src="./assets/logo.png" alt="logo">
+        <button ondblclick="incioSesion(this)">Inicio Sesión</button>
+        <button>Registro</button>
+    </header>
+    <nav>
+        <div id="contenedor">
+            <div id="img">
+                <ul>
+                    <li><img src="./assets/libro.png" alt="libro"> Elije Libros</li>
+                    <li><img src="./assets/check.png" alt="check"> Elije Disponibilidad</li>
+                    <li><img src="./assets/separalo.png" alt="separar">Sepáralo</li>
+                    <li><img src="./assets/shipping.png" alt="carta"> Recíbelo</li>
+                </ul>
+            </div>
+            <div id="submenu">
+                <ol>
+                    <li onclick="cambiarTitulo('Ficcion')">Ficcion</li>
+                    <li onclick="cambiarTitulo('Historicos')">Historicos</li>
+                    <li onclick="cambiarTitulo('Tecnología')">Tecnología</li>
+                    <li onclick="cambiarTitulo('Autoayuda')">Autoayuda</li>
+                    <li onclick="cambiarTitulo('Poesía')">Poesía</li>
+                </ol>
+            </div>
+            <div id="texto">
+
+                <h1>Todos los Libros</h1>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <img src="./assets/cien.jpg" alt="libro"><button class="rentarBtn">Rentar</button>
+            <p>Cien años de soledad <br>
+                Gabriel García Márquez
+            </p>
+            <img id="img2" src="./assets/rayuela.jpg" alt="libro"><button class="rentarBtn">Rentar</button>
+            <p>Rayuela <br>
+                Julio Cortazar</p>
+            <img src="./assets/travesuras.jpg" alt="libro"><button class="rentarBtn">Rentar</button>
+            <p>Travesuras de la niña mala <br>
+                Mario Vargas Llosa</p>
+        </div>
+    </main>
+    <footer>
+        <h3>Todos los derechos reservados.Libroteca</h3>
+    </footer>
+</body>
+
+</html>

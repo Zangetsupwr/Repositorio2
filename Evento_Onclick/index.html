@@ -19,7 +19,7 @@
                 <p><strong>Plural:</strong> Gatos Atigrados</p>
                 <p>Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con
                     una marca en forma de "M" en su frente.</p>
-                <button  onclick="meGusta('tituloGato')">22 me gusta</button>
+                <button onclick="darLike('likes-22','Gato Atigrado')"><span id = "likes-22">22 me gusta</span></button>
             </div>
 
             <div class="definition">
@@ -27,7 +27,7 @@
                 <p><strong>Plural:</strong> Golden Retrievers</p>
                 <p>Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para
                     recuperar objetos sin dañarlos.</p>
-                <button onclick="meGusta('tituloGolden')">45 me gusta</button>
+                <button onclick="darLike('likes-45','Golden Retriever')"><span id = "likes-45">45 me gusta</span></button>
             </div>
         </section>
         <div class="footer">
@@ -53,10 +53,19 @@
             botonAgregar.remove();
         }
         // Dar like al boton: 
-            function meGusta(idTitulo) {
+  /*           function meGusta(idTitulo) {
             const titulo = document.getElementById(idTitulo).textContent;
             alert(`Fue Likeado: ${titulo}`);
-        }
+        } */
+
+        //Dar Like 
+        function darLike(id,nombreAnimal){
+        const likeCountElement = document.getElementById(id);
+        let currentLikes = parseInt(likeCountElement.textContent);
+        currentLikes++;
+        likeCountElement.textContent = `${currentLikes} me gusta`;
+        alert(`${nombreAnimal} dió me gusta!`);
+    } 
     </script>
 </body>
 

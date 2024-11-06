@@ -21,3 +21,15 @@ function aumentarCarrito() {
     cantidadActual++;
     carrito.textContent = `${cantidadActual}`;
 }
+
+let carrito = [];
+
+// Función para agregar un producto al carrito
+function agregarProducto(nombre, precio) {
+    const producto = { nombre, precio };
+    carrito.push(producto);
+    actualizarCarrito();
+}
+
+
+
