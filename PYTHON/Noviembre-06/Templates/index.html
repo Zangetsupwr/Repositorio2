@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="{{ url_for('static', filename='assets/logo.png') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Empire State - USA
+          </a>
+        </div>
+      </nav>
+      {% import 'NavBar.html' as navbar %}
+    {{ navbar.navbar("Registro") }}
+    <div class="container">
+        <form action="/registro" method="POST">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    name="emailIpt">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="pwdIpt">
+            </div>
+            <div class=" mb-3">
+                <label for="marcaFavorita" class="form-label">Marca Favorita</label>
+                <select class="form-select" aria-label="Large select example" id="marcaFavorita" multiple
+                    name="marcaIpt">
+                    <option selected disabled>Open this select menu</option>
+                    <option value="nike">Nike</option>
+                    <option value="adidas">Adidas</option>
+                    <option value="puma">Puma</option>
+                    <option value="reebok">Reebok</option>
+                    <option value="underArmour">Under Armour</option>
+                    <option value="newBalance">New Balance</option>
+                    <option value="fila">Fila</option>
+                    <option value="asics">Asics</option>
+                    <option value="converse">Converse</option>
+                    <option value="vans">Vans</option>
+                    <option value="dc">DC</option>
+                    <option value="lacoste">Lacoste</option>
+                    <option value="tommyHilfiger">Tommy Hilfiger</option>
+                    <option value="calvinKlein">Calvin Klein</option>
+                    <option value="levis">Levis</option>
+                    <option value="guess">Guess</option>
+                    <option value="hollister">Hollister</option>
+                    <option value="abercrombie">Abercrombie</option>
+                    <option value="americanEagle">American Eagle</option>
+                    <option value="aeropostale">Aeropostale</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

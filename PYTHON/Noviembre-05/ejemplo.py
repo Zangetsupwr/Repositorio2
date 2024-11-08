@@ -21,7 +21,7 @@ def index():
                {'nombre': 'Elena', 'edad': 21, 'curso': 'Biología'}, 
                {'nombre': 'Luis', 'edad': 23, 'curso': 'Ingeniería'},
                {'nombre': 'Mirsson', 'edad': 32, 'curso': 'Ingeniería'},]
-    return render_template('index.html', estudiantes=estudiantes)
+    return render_template('index.html',estudiantes=estudiantes)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,12 @@
+{% macro navbar(pagina_actual="") -%}
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="{{ url_for('static', filename='assets/logo.png') }}" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                Empire State
+            </a>
+            <h2>{{pagina_actual}}</h2>
+        </div>
+    </nav>
+{%- endmacro %}
