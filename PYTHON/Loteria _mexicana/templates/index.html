@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}" />
+</head>
+<body>
+    <h1>Loteria Mexicana</h1>
+    <div class="grid">
+        {% for carta in cartas %} {#recorriendo la lista de cartas#}
+         <div class="cell {{ carta.color }}">
+            <div class="content">
+                <div>{{ carta.nombre }}</div>
+            </div>
+         </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

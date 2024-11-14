@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='./style2.css') }}" />
+</head>
+<body>
+    {% if datos %}
+    <h1>Tu futuro es: </h1>
+        <p>Soy el adivino del Dojo, <span style="color: green;">{{datos['nombre']}}</span>,
+         tendrá un viaje muy largo dentro de <span style="color:blue;">{{datos['numero']}}</span> años a <span style="color: yellow;">{{datos['lugar']}}</span>
+         y estará el resto de sus días preparando <span style="color: rgb(59, 153, 184);">{{datos['comida']}}</span>
+         para todas las personas que quiere. 
+         Cambió de profesión y ahora es <span style="color: purple;">{{datos['profesion']}}</span> y quiere <span style="color: green;">{{datos['objetivo']}}</span>.</p>
+    {% else %}
+        <p>No se han encontrado datos para mostrar.</p>
+    {% endif %}
+
+    <a href="/">Volver a jugar!</a>
+
+</body>
+</html>

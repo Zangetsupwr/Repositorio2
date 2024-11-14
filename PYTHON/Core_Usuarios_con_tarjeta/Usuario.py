@@ -35,3 +35,9 @@ class Usuario:
         for numero, tarjeta in self.tarjetas.items():
             print(f"\nTarjeta {numero}: ${tarjeta.saldo_pagar}")
 
+usuario = Usuario("Juan", "Perez", "juanperez@gmail.com")
+usuario = Usuario("Pancho", "Villa", "panchovilla@gmail.com")
+usuario.agregar_tarjeta("1111-1111-1111-1111",1000)
+usuario.agregar_tarjeta("2222-2222-2222-2222",2000)
+usuario.hacer_compra("2222-2222-2222-2222",100)
+

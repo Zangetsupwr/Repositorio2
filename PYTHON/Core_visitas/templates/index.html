@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bienvenido a la pagina de vistas </h1>
+    <p>Has visitado esta pagina {{visitas}} veces XD</p>
+    <a href="/destruir_sesion">Reiniciar Contador</a>
+    <br><br>
+    <form action="{{ url_for('btn_visitas') }}" method="get">
+        <button type="submit">Visitas: {{visitas}}</button>
+    </form>
+    <br><br>
+    <form action="{{ url_for('reset_visits') }}" method="post">
+        <button type="submit">Reiniciar visitas</button>
+    </form>
+    <br><br>
+    <form action="{{ url_for('incrementar_visitas') }}" method="post"> 
+        <label for="incremento">Aumentar visitas:</label> 
+        <input type="number" id="incremento" name="incremento" value="1" min="1"> 
+        <button type="submit">Sumar</button> </form>
+    </form>
+</body>
+</html>

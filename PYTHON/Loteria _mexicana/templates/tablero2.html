@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de 5 x 6</title>
+</head>
+<style>
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(5,90px);
+      grid-template-rows: repeat(6,90px);
+      gap: 5px; /* Espacio entre los cuadros */
+      justify-content: center;
+    }
+    .square{
+      width: 89px;
+      height: 93px;
+    }
+    h1{
+        text-align: center;
+    }
+  
+    .pink { background-color: pink;}
+    .yellow { background-color: yellow; }
+    .blue { background-color: blue;}
+  </style>
+<body>
+    <div>
+        <h1>Tablero de {{rows}} x {{columns}}</h1>
+        <div class="grid">
+            {% for i in range(rows) %}
+              {% for j in range(columns) %}
+                <div class="square 
+                  {% if (i + j) % 3 == 0 %} pink
+                  {% elif (i + j) % 3 == 1 %} blue
+                  {% else %} yellow
+                  {% endif %}">
+                </div>
+              {% endfor %}
+            {% endfor %}
+          </div>
+    </div>    
+</body>
+</html>

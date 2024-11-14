@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}" />
+</head>
+<body>
+    <h1> ¿Quieres conocer tu futuro? </h1>
+    <p>coloca tus respuestas y te diremos tu destino</p>
+</body>
+   <div class="container">
+    <div class="form">
+       <form action="{{ url_for('enviar') }}" name="form1" method="POST">
+         <label>Tu Nombre:</label>
+         <input type="text" name="nombre">
+         <label>Un lugar:</label>
+         <input type="text" name="lugar">
+         <label>Un Numero:</label>
+         <input type="text" name="numero">
+         <label>Tu Comida Favorita:</label>
+         <input type="text" name="comida">
+         <label>Profesion:</label>
+         <input type="text" name="profesion">
+         <button type="submit">Ver mi destino</button>
+         <button type="submit"><a href="/resultado">Ver Mala Suerte</a></button>
+        </form>
+       
+       {% if datos %}
+       <h3>Datos guardados:</h3>
+       <p>Nombre: {{ datos['nombre'] }}</p>
+       <p>Lugar: {{ datos['lugar'] }}</p>
+       <p>Número: {{ datos['numero'] }}</p>
+       <p>Comida favorita: {{ datos['comida'] }}</p>
+       <p>Profesion: {{ datos['profesion'] }}</p>
+   {% endif %}
+
+    </div>
+   </div>
+
+</html>

@@ -25,7 +25,6 @@ def login():
 
 # Ruta Secundaria
 
-
 @app.route('/dashboard')
 def dashboard():
     usuario = session.get('username')

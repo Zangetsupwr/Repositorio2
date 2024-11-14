@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+td{
+    text-align: left;
+    font-weight: bold;
+}
+table{
+    border: solid 2px black
+}
+#pais{
+    background-color: #cfe3ff;
+}
+#capital{
+    background-color: #cfe3ff;
+}

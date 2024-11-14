@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}" />
+</head>
+<body>
+    <h1>¿Deseas ver tu mala suerte?</h1>
+    <form action="{{ url_for('mensaje') }}" method="POST"> 
+        <label for="nombre">Nombre:</label> 
+        <input type="text" id="nombre" name="nombre"> 
+        <label for="comida">Comida:</label> 
+        <input type="text" id="comida" name="comida"> 
+        <label for="numero">Número:</label> 
+        <input type="number" id="numero" name="numero"> 
+        <label for="lugar">Lugar:</label> 
+        <input type="text" id="lugar" name="lugar"> 
+        <button type="submit">Mala suerte</button>
+    </form>
+    <h1>{{ mensaje }}</h1>
+</body>
+</html>
