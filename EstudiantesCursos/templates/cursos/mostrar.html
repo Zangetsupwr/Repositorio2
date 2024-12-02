@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del Curso</title>
+</head>
+<body>
+    <h1>Curso: {{ curso.nombre }}</h1>
+
+    <h2>Estudiantes Inscritos</h2>
+    <ul>
+        {% if curso.estudiantes %}
+            {% for estudiante in curso.estudiantes %}
+                <li>{{ estudiante.nombre }} {{ estudiante.apellido }}, Edad: {{ estudiante.edad }}</li>
+            {% endfor %}
+        {% else %}
+            <li>No hay estudiantes inscritos en este curso.</li>
+        {% endif %}
+    </ul>
+
+    <a href="/cursos">Volver a la lista de cursos</a>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Publicación</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h2 class="mb-4">Editar Publicación</h2>
+                
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-danger">{{ message }}</div>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+
+                <form action="/publicaciones/update/{{ publicacion.id }}" method="POST">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre:</label>
+                        <input type="text" 
+                               class="form-control" 
+                               id="nombre" 
+                               name="nombre" 
+                               value="{{ publicacion.nombre }}">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="ingredientes" class="form-label">Ingredientes:</label>
+                        <textarea class="form-control" 
+                                  id="ingredientes" 
+                                  name="ingredientes" 
+                                  rows="3">{{ publicacion.ingredientes }}</textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="complementos" class="form-label">Complementos:</label>
+                        <input type="text" 
+                               class="form-control" 
+                               id="complementos" 
+                               name="complementos" 
+                               value="{{ publicacion.complementos }}">
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <button type="submit" class="btn btn-primary">Actualizar</button>
+                        <a href="/dashboard" class="btn btn-secondary">Cancelar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

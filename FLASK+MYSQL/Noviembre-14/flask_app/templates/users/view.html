@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bienvenidos Nuevos Usuarios</h1>
+    <h3>Esta lista es autogenerada por JINJA</h3>
+    <a href="/users/create">Create User</a>
+    <table border="1"  cellspacing="0">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Referido</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <td>{{ user.firstname }}</td>
+                <td>{{ user.lastname }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.referral_id or "-" }}</td>
+                <td>
+                    <a href="/users/{{ user.id }}">Ver</a>
+                    <a href="/users/{{ user.id }}/edit">Editar</a>
+                    <a href="/users/{{ user.id }}/delete">Eliminar</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+
+</body>
+
+</html>

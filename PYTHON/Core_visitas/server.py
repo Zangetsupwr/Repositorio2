@@ -12,7 +12,7 @@ def index():
  if 'visitas' in session:
     session['visitas'] = session.get('visitas') + 1
  else:
-    session['visitas'] = 1
+    session['visitas'] = 0
  if 'resets' not in session:
    session['resets'] = 0
  return render_template('index.html', visitas=session['visitas'],resets=session['resets'])
@@ -25,30 +25,22 @@ def destruir_sesion():
    return redirect('/')
 
 
-@app.route('/')
-def btn_visitas():
- if 'visitas' in session:
-    session['visitas'] = session.get('visitas') + 2
- else:
-    session['visitas'] = 1
- return render_template('index.html', visitas=session['visitas'])
+@app.route('/') 
+def btn_visitas(): 
+   session['visitas'] += 1 
+   return redirect(url_for('index'))
 
 @app.route('/reset_visits', methods=['POST']) 
 def reset_visits(): 
-   session['visits'] = 0 
-   if 'resets' in session: 
-    session['resets'] += 1 
-   else: 
-    session['resets'] = 1 
+   session['visitas'] = -1 
    return redirect(url_for('index'))
 
 #Agregar un formulario que permita ingresar un numero
 #y que aumente esa cantidad de visitas
-
 @app.route('/incrementar_visitas', methods=['POST'])
 def incrementar_visitas():
   incremento = int(request.form.get('incremento',0))
-  session['visitas'] += incremento
+  session['visitas'] += incremento-1
   return redirect(url_for('index'))
 
 

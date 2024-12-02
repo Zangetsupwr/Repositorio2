@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <h1>Bienvenido@ {{usuario.nombre}}</h1>
+            <a href="/logout" class="btn btn-danger">Cerrar Sesión</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="">Nueva Publicacion</h1>
+
+        <form action="/publicaciones/create" method="post" class="row align-items-start">
+            <div class="col">
+                <div class="mb-3">
+                    <label for="nombreIpt" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombreIpt" name="nombre">
+                    {% with errors = get_flashed_messages(category_filter=["nombre"]) %}
+                    {% for error in errors %}
+                    <div class="alert alert-danger"> {{error}} </div>
+                    {% endfor %}
+                    {% endwith %}
+                </div>
+                <div class="mb-3">
+                    <label for="fechaIpt" class="form-label">Ingredientes</label>
+                    <textarea class="form-control" id="ingredientesIpt" name="ingredientes"></textarea>
+                    {% with errors = get_flashed_messages(category_filter=["fecha"]) %}
+                    {% for error in errors %}
+                    <div class="alert alert-danger"> {{error}} </div>
+                    {% endfor %}
+                    {% endwith %}
+                </div>
+                <div class="mb-3">
+                    <label for="complementosIpt" class="form-label">Complemento:</label>
+                    <input type="text" class="form-control" id="complementosIpt" name="complementos">
+                    {% with errors = get_flashed_messages(category_filter=["complementos"]) %}
+                    {% for error in errors %}
+                    <div class="alert alert-danger"> {{error}} </div>
+                    {% endfor %}
+                    {% endwith %}
+                </div>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                </div>
+                <button type="submit" class="btn btn-primary btn-success" style="margin-top: 300px; margin-left:-130px;">Compartir</button>
+            </div>
+        </form>
+        <a href="/publicaciones/listado" class="btn btn-primary btn-success">Ver Listado de Tortas</a>
+        <div class="container">
+            <h1>Todas las tortas</h1>
+            <div class="col-md-6">
+                {% if publicaciones %}
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Torta</th>
+                            <th>Ingredientes</th>
+                            <th>Complementos</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for publicacion in publicaciones %}
+                        <tr>
+                            <td>{{ publicacion.nombre }}</td>
+                            <td>{{ publicacion.ingredientes }}</td>
+                            <td>{{ publicacion.complementos }}</td>
+                            <td>
+                                <!-- Botón para Editar -->
+                                <form method="POST" action="/publicaciones/{{publicacion.id}}/editar" style="display:inline;">
+                                    <button type="submit" class="btn btn-outline-success">Editar</button>
+                              </form>
+                                <!--Botón para Eliminar -->
+                                <form method="POST" action="/publicaciones//delete/{{publicacion.id}}" style="display:inline-block;">
+                                    <button type="submit" class="btn btn-outline-danger">Eliminar</button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% else %}
+                <p>No hay publicaciones disponibles.</p>
+                {% endif %}
+            </div>
+        </div>
+       
+</body>
+
+</html>

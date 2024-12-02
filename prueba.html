@@ -73,7 +73,7 @@
             carritoDiv.innerHTML = '<h2>Productos en el Carro:</h2>';
             carrito.forEach(item => {
                 carritoDiv.innerHTML += `
-                   <p>Producto: <br>${item.nombre}, Precio: <br>$${item.precio.toFixed(2)}, <br>Cantidad: ${item.cantidad}</p>
+                   <p>Producto: <br>${item.nombre}, <br>Precio: <br>$${item.precio.toFixed(2)}, <br>Cantidad: ${item.cantidad}</p>
                 `;
             });
             carritoDiv.innerHTML += `<strong>Total: $${calcularTotal().toFixed(2)}</strong>`;

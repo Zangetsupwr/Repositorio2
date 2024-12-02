@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+</head>
+<body>
+    <h2>Lista de Usuarios</h2>
+        <button><a href="/usuarios/create">Crear Usuario</a></button>
+           <table border="1" width="50%" cellspacing="0">
+             <tr>
+                <th>ID</th>
+                <th>Nombre</th>  
+                <th>Email</th>  
+                <th>Contraseña</th>   
+                <th>Acciones a realizar</th>
+             </tr>
+             {% for usuario in usuarios %}
+               <tr>
+                   <td>{{usuario.id}}</td>
+                   <td>{{usuario.nombre}}</td>
+                   <td>{{usuario.email}}</td>
+                   <td>{{usuario.contraseña}}</td>
+                  <td><a href="/usuarios/{{usuario.id}}/delete">Eliminar</a></td> 
+                  <td><a href="/usuarios/editar/{{usuario.id}}">Editar</a></td>
+               </tr>
+           {% endfor %}
+           </table>
+       
+</body>
+</html>

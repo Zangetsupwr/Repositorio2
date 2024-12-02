@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Nuevo Curso</h2>
+    <form action="/cursos/create" method="post">
+    <label>Nombre</label><input type="text" name="nombre" id="nombre"><br><br>
+    <button type="submit">Crear</button>
+    </form>
+    <br>
+        <h2>Todos los cursos</h2>
+        <table border="1">
+            <td> ID</td>
+            <td> Nombre</td>
+            <tr>
+               {%for curso in cursos%}
+               <td>{{curso.id}}</td>
+               <td><a href="/cursos/{{curso.id}}">{{curso.nombre}}</a></td>
+               </tr>  
+              {% endfor %}
+        </table>
+
+</body>
+</html>

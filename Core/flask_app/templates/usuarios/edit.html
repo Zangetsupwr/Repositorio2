@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>{{item.nombre}} {{item.apellido}}</h1>
+    <h2>Actualiza tus datos</h2>
+    <form action="/usuarios/edit/{{item.id}}" method="post">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" value="{{item.nombre}}">
+            {% with errors = get_flashed_messages(category_filter=["nombre"]) %}
+            {% if errors %}
+            {%- for msg in errors %}
+            <p>{{msg}}</p>
+            {% endfor -%}
+            {% endif %}
+            {% endwith %}
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" value="{{item.apellido}}">
+            {% with errors = get_flashed_messages(category_filter=["apellido"]) %}
+            {% if errors %}
+            {%- for msg in errors %}
+            <p>{{msg}}</p>
+            {% endfor -%}
+            {% endif %}
+            {% endwith %}
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" value="{{item.email}}">
+            {% with errors = get_flashed_messages(category_filter=["email"]) %}
+            {% if errors %}
+            {%- for msg in errors %}
+            <p>{{msg}}</p>
+            {% endfor -%}
+            {% endif %}
+            {% endwith %}
+        </div>
+        <div>
+            <label for="contraseña">Password</label>
+            <input type="password" name="contraseña" id="contraseña">
+            {% with errors = get_flashed_messages(category_filter=["contraseña"]) %}
+            {% if errors %}
+            {%- for msg in errors %}
+            <p>{{msg}}</p>
+            {% endfor -%}
+            {% endif %}
+            {% endwith %}
+        </div>
+        <button type="submit">Registrarse</button>
+    </form>
+
+
+</body>
+
+</html>

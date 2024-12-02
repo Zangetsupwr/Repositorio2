@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./FLASK+MYSQL/Noviembre-14/flask_app/config"
+    ]
+}

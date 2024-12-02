@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/estudiante">Nuevo estudiante</a>
+    <h2>Estudiantes del curso {{curso.nombre}}</h2>
+    <br>
+    <table border="1">
+        <td> Nombre</td>
+        <td> Apellido</td>
+        <tr>
+           {%for estudiante in estudiantes%}
+           <td>{{estudiante.nombre}}</td>
+           <td>{{estudiante.apellido}}</td>
+           </tr>  
+          {% endfor %}
+</body>
+</html>
