@@ -35,13 +35,15 @@
             <label for="edad">Edad:</label>
             <input type="number" name="edad" required><br><br>
             
-            <label for="cursos_id">Curso:</label>
-            <select name="cursos_id" >
-                {%for cursos in cursos%}
-               <option value="cursos_id">{{cursos.nombre}}</option>
-              {% endfor %}
-            </select> <br><br>
-            <button type="submit">Agregar Estudiante</button>
+            <div class="form-group">
+                <label for="cursos_id">Curso:</label>
+                <select name="cursos_id" class="form-control"> 
+                    {% for curso in cursos %}  <!-- Cambiado: usar el mismo nombre 'curso' -->
+                        <option value="{{ curso.id }}">{{ curso.nombre }}</option> 
+                    {% endfor %} 
+                </select> 
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Agregar</button>
           
         </form>
     

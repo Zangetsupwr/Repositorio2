@@ -94,7 +94,6 @@ class Publicacion:
             AND usuario_id = %(usuario_id)s;
         """
         existing_like = connectToMySQL('recetas').query_db(check_query, data)
-        
         if not existing_like:
             # Si no existe, insertamos el nuevo like
             query = """

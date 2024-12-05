@@ -28,4 +28,4 @@ def create_post():
 def view_cursos_estudiantes(id):
     curso = cursos.find_by_id(id)
     estudiantes_list = estudiantes.all_curso_estudiante(id)
-    return render_template('nuevo.html', curso=curso, estudiantes=estudiantes_list)
+    return render_template('nuevo.html', curso=cursos, estudiantes=estudiantes_list)

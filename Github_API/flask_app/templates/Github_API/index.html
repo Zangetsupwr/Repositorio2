@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario GitHub</title>
+</head>
+<body>
+    <div>
+        <button onclick="fetchGitHubUser('cindychateau')">Obtener Datos</button>
+        <h1>Información del Usuario</h1>
+        <p>Nombre: <span id="name"></span></p>
+        <p>Seguidores: <span id="followers"></span></p>
+        <img id="avatar" src="" alt="Avatar del usuario" width="150">
+    </div>
+
+    <script>
+        async function fetchGitHubUser(username) {
+            try {
+                const response = await fetch(`https://api.github.com/users/${username}`);
+                const data = await response.json();
+                
+                console.log(data); // Imprime los datos completos en la consola
+
+                // Muestra la información en el HTML
+                document.getElementById('name').textContent = data.name;
+                document.getElementById('followers').textContent = data.followers;
+                document.getElementById('avatar').src = data.avatar_url;
+            } catch (error) {
+                console.error('Error al obtener los datos del usuario:', error);
+            }
+        }
+        // Llama a la función con el nombre de usuario de GitHub deseado
+        fetchGitHubUser('nombreDeUsuario');
+    </script>
+</body>
+</html>

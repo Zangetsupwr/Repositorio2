@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+</head>
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<body style=" background-image: url('/Examen_2_crud/flask_app/static/img/fondo.png');">
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Formulario Izquierdo -->
+      <div class="col-md-6" style="border: solid 4px black; border-radius: 10px;">
+        <h3>Registro</h3>
+        <form>
+          <div class="mb-3">
+            <label for="nombreIpt" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombreIpt" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="ApellidoIpt" class="form-label">Apellido</label>
+            <input type="email" class="form-control" id="apellidoIpt" placeholder="Ingresa tu apellido">
+          </div>
+          <div class="mb-3">
+            <label for="emailIpt" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="emailIpt" placeholder="Ingresa tu correo">
+          </div>
+          <div class="mb-3">
+            <label for="contraseñaIpt" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="contraseñaIpt" placeholder="Ingresa tu contraseña">
+          </div>
+          <div class="mb-3">
+            <label for="conf_contraseña" class="form-label">Conf.Contraseña</label>
+            <input type="password" class="form-control" id="conf_contraseña" placeholder="confirma tu contraseña">
+          </div>
+          <button type="submit" class="btn btn-primary btn-success">Registrar</button>
+        </form>
+      </div>
+
+      <!-- Formulario Derecho -->
+      <div class="col-md-6" style="border: solid 4px black; border-radius: 10px;">
+        <h3>Inicio de Sesion</h3>
+        <form>
+          <div class="mb-3">
+            <label for="emailIpt" class="form-label">Correo Electrónico</label>
+            <input type="text" class="form-control" id="emailIpt" placeholder="Ingresa tu email">
+          </div>
+          <div class="mb-3">
+            <label for="contraseñaIpt" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="contraseñaIpt" placeholder="Ingresa tu contraseña">
+          </div>
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Enlace al JS de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

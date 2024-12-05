@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario AJAX</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Usuarios</h1>
+    
+    <!-- Formulario para agregar usuarios -->
+    <form id="userForm" class="mb-4">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Agregar Usuario</button>
+    </form>
+    <br><br>
+    <!-- Tabla de usuarios -->
+        <table class="table" border="1" width="30%">
+            <tr>
+                <td>id</td>
+                <td>Nombre</td>
+                <td>Correo Electrónico</td>
+            </tr>
+        <tbody id="userTable">
+            <table border="1" width="30%">
+            {% for usuario in usuarios %}
+            <tr>
+                <td>{{ usuario.id }}</td>
+                <td>{{ usuario.nombre }}</td>
+                <td>{{ usuario.email }}</td>
+            </tr>
+            {% endfor %}
+            </table>
+        </table>   
+     </tbody>
+</div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

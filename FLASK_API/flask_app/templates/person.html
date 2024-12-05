@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+
+<body>
+    <h1>PERSONAJE DE STAR WARS</h1>
+    <form onsubmit="getPerson(event)">
+        <input type="number" name="id">
+        <button type="submit">Buscar</button>
+    </form>
+    <div id="personInfo">
+        <h2>Nombre:</h2>
+        <h3>Altura:</h3>
+        <h3>Peso:</h3>
+        <h3>Color de cabello: </h3>
+        <h3>Color de piel:</h3>
+    </div>
+</body>
+
+</html>

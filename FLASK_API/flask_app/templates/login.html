@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+
+<body>
+    <h1>LOGIN</h1>
+    <form onsubmit="login(event)">
+        <label for="">EMAIL</label>
+        <input type="email" name="email">
+        <br>
+        <label for="">PASSWORD</label>
+        <input type="password" name="password">
+        <br>
+        <p id="errorPassword" class="errors" type="hidden"></p>
+        <br>
+        <button type="submit">Ingresar</button>
+    </form>
+</body>
+
+</html>
