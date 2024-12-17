@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Peluche</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>Detalles del Peluche</h1>
+            <div>
+                <a href="/dashboard" class="btn btn-secondary">Dashboard</a>
+                <a href="/logout" class="btn btn-danger">Cerrar Sesión</a>
+            </div>
+        </div>
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-danger">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">{{ peluche.nombre }}</h2>
+                <hr>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <p><strong>Descripción:</strong> {{ peluche.descripcion }}</p>
+                        <p><strong>Estado:</strong> {{ peluche.estado }}</p>
+                        <p><strong>Donado por:</strong> {{ peluche.donador_nombre }}</p>
+                        <p><strong>Fecha de donación:</strong> {{ peluche.created_at.strftime('%d/%m/%Y') }}</p>
+                        <p><strong>Veces visto:</strong> {{ peluche.visitas }} visitas</p>
+                    </div>
+                </div>
+                
+                {% if session['user_id'] == peluche.usuario_id %}
+                <div class="mt-3">
+                    <a href="/peluches/editar/{{ peluche.id }}" class="btn btn-warning">Editar</a>
+                    <a href="/peluches/eliminar/{{ peluche.id }}" class="btn btn-danger" 
+                       onclick="return confirm('¿Estás seguro de que quieres eliminar este peluche?')">
+                        Eliminar
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
