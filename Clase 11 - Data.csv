@@ -1,0 +1,1001 @@
+,Nombre,Edad,Sexo,Ciudad,Carrera,Nota_Final,Horas_Estudio,Ingreso_Familiar,Aprobado
+0,Camila Ramírez,38,F,Santiago,Arquitectura,14.4,1.9,2139,Sí
+1,Mateo González,23,F,Buenos Aires,Administración,14.28,2.1,3635,Sí
+2,Valentina Romero,28,F,Lima,Medicina,10.78,4.5,4820,No
+3,Martina González,32,F,Medellín,Administración,16.31,1.0,4453,Sí
+4,Isabella Sánchez,37,F,Buenos Aires,Administración,16.38,1.7,3734,Sí
+5,Camila Ramírez,31,F,Montevideo,Derecho,15.92,3.3,2644,Sí
+6,Santiago Flores,21,M,Medellín,Psicología,14.2,4.1,1673,Sí
+7,Martina Sánchez,26,F,Lima,Psicología,14.45,5.3,2209,Sí
+8,Santiago López,23,F,Lima,Administración,10.44,5.7,3824,No
+9,Lucía Ramírez,19,F,Quito,Derecho,16.21,2.6,4200,Sí
+10,Camila Ramírez,26,F,Montevideo,Ingeniería,15.11,2.9,3944,Sí
+11,Lucía Ortega,24,M,Buenos Aires,Derecho,14.19,0.1,3882,Sí
+12,Lucía López,21,F,Quito,Arquitectura,10.09,6.0,3040,No
+13,Santiago Pérez,26,M,Medellín,Derecho,15.81,4.1,3157,Sí
+14,Isabella Rodríguez,26,M,Medellín,Administración,11.04,0.8,3290,Sí
+15,Martina Rodríguez,37,M,Ciudad de México,Psicología,13.87,4.3,3545,Sí
+16,Mateo Rodríguez,37,F,Quito,Medicina,15.34,2.3,2949,Sí
+17,Valentina Flores,30,F,Buenos Aires,Psicología,12.94,0.4,2314,Sí
+18,Isabella Romero,19,F,Ciudad de México,Psicología,10.93,5.5,1342,No
+19,Diego Ramírez,27,M,Medellín,Psicología,17.58,1.5,3975,Sí
+20,Martina Fernández,26,M,Quito,Administración,16.56,0.6,3445,Sí
+21,Mateo Rodríguez,35,F,Quito,Medicina,15.1,1.1,2077,Sí
+22,Lucía González,21,F,Santiago,Arquitectura,12.41,0.7,1438,Sí
+23,Valentina Rodríguez,27,F,Ciudad de México,Economía,10.83,0.7,3666,No
+24,Santiago Ramírez,24,F,Bogotá,Medicina,11.51,1.1,2583,Sí
+25,Valentina Rodríguez,18,M,Bogotá,Economía,12.34,5.8,4006,Sí
+26,Camila López,39,F,Quito,Derecho,10.92,4.5,2033,No
+27,Camila Ramírez,38,F,Buenos Aires,Psicología,16.31,5.3,3311,Sí
+28,Martina Sánchez,32,M,Quito,Medicina,17.53,1.6,3793,Sí
+29,Lucía Fernández,39,M,Buenos Aires,Economía,11.1,3.7,2965,Sí
+30,Mateo Romero,27,M,Montevideo,Ingeniería,9.01,0.4,3076,No
+31,Isabella Ortega,29,M,Lima,Arquitectura,18.33,0.8,2271,Sí
+32,Tomás Ramírez,24,M,Bogotá,Psicología,19.43,4.2,3737,Sí
+33,Mateo Ortega,31,F,Quito,Ingeniería,13.56,5.0,3464,Sí
+34,Lucía González,36,M,Lima,Psicología,15.62,0.9,2578,Sí
+35,Camila Flores,39,M,Lima,Medicina,16.59,5.6,2975,Sí
+36,Valentina Sánchez,31,M,Quito,Medicina,15.88,5.7,1984,Sí
+37,Valentina Fernández,32,F,Ciudad de México,Medicina,15.01,0.8,1627,Sí
+38,Tomás Ramírez,33,M,Quito,Arquitectura,15.0,0.4,2738,Sí
+39,Santiago Ramírez,33,M,Buenos Aires,Ingeniería,9.85,4.4,2988,No
+40,Camila Sánchez,22,F,Buenos Aires,Ingeniería,11.71,3.0,2267,Sí
+41,Valentina Ortega,33,M,Medellín,Economía,13.84,5.5,4494,Sí
+42,Camila Sánchez,20,F,Montevideo,Administración,14.88,5.1,2062,Sí
+43,Isabella López,23,F,Quito,Ingeniería,11.79,4.4,1983,Sí
+44,Valentina Fernández,35,M,Bogotá,Administración,18.83,1.6,2211,Sí
+45,Valentina Pérez,22,M,Ciudad de México,Medicina,11.27,3.0,2094,Sí
+46,Isabella Romero,34,F,Bogotá,Economía,10.68,3.0,3078,No
+47,Santiago Rodríguez,28,M,Lima,Arquitectura,17.71,3.0,2931,Sí
+48,Santiago González,26,F,Medellín,Derecho,17.22,1.8,2577,Sí
+49,Alejandro Pérez,31,M,Buenos Aires,Administración,12.38,0.8,1839,Sí
+50,Tomás Rodríguez,32,M,Ciudad de México,Psicología,14.53,1.4,2504,Sí
+51,Tomás Sánchez,23,F,Bogotá,Medicina,14.82,2.6,3559,Sí
+52,Diego López,25,F,Santiago,Administración,13.25,5.7,1917,Sí
+53,Valentina Flores,26,M,Ciudad de México,Medicina,14.07,2.5,2972,Sí
+54,Lucía Ramírez,37,F,Lima,Medicina,16.57,3.0,3173,Sí
+55,Santiago Rodríguez,33,F,Ciudad de México,Administración,12.27,4.1,3790,Sí
+56,Martina Sánchez,39,M,Quito,Medicina,14.18,1.2,736,Sí
+57,Tomás Pérez,23,F,Lima,Psicología,14.86,2.9,3172,Sí
+58,Santiago Flores,27,M,Ciudad de México,Derecho,13.79,0.9,2656,Sí
+59,Tomás Rodríguez,29,M,Quito,Psicología,12.82,1.3,3686,Sí
+60,Martina Ramírez,30,F,Montevideo,Ingeniería,16.44,1.3,3644,Sí
+61,Mateo Flores,24,F,Medellín,Administración,14.04,1.1,2066,Sí
+62,Diego Sánchez,36,M,Santiago,Arquitectura,13.5,0.0,4675,Sí
+63,Valentina Pérez,30,F,Medellín,Administración,18.92,1.5,1561,Sí
+64,Alejandro Ortega,38,F,Lima,Derecho,13.24,5.6,1974,Sí
+65,Camila Pérez,34,M,Bogotá,Medicina,11.26,4.7,1829,Sí
+66,Tomás Sánchez,28,M,Lima,Administración,13.3,3.5,2718,Sí
+67,Diego Pérez,28,F,Medellín,Arquitectura,10.17,5.1,4242,No
+68,Martina Ramírez,20,M,Quito,Arquitectura,10.85,5.0,1503,No
+69,Diego Flores,35,F,Ciudad de México,Derecho,13.3,5.9,2702,Sí
+70,Camila Ortega,30,M,Medellín,Administración,15.61,0.3,2916,Sí
+71,Alejandro Ortega,26,M,Ciudad de México,Derecho,11.02,4.9,2178,Sí
+72,Isabella Romero,33,M,Medellín,Arquitectura,11.55,3.3,3427,Sí
+73,Diego Ortega,22,F,Bogotá,Administración,13.35,6.0,2663,Sí
+74,Alejandro Ortega,25,M,Santiago,Psicología,12.68,3.4,3214,Sí
+75,Tomás Flores,35,F,Medellín,Psicología,10.51,0.1,2557,No
+76,Camila López,39,F,Montevideo,Medicina,11.08,4.2,2746,Sí
+77,Diego Flores,22,M,Medellín,Psicología,19.31,0.7,2234,Sí
+78,Santiago Ortega,22,F,Quito,Ingeniería,13.59,0.9,2175,Sí
+79,Lucía Ramírez,38,M,Santiago,Administración,14.87,1.5,3850,Sí
+80,Lucía Rodríguez,19,M,Buenos Aires,Ingeniería,18.34,2.9,2689,Sí
+81,Valentina Ramírez,24,F,Lima,Medicina,10.54,4.8,2865,No
+82,Alejandro Rodríguez,22,M,Montevideo,Administración,14.7,5.7,3594,Sí
+83,Camila Romero,30,F,Lima,Administración,11.79,3.2,3119,Sí
+84,Camila Ortega,29,F,Buenos Aires,Arquitectura,14.81,4.9,3197,Sí
+85,Camila González,39,M,Medellín,Medicina,15.11,5.7,4250,Sí
+86,Valentina Rodríguez,34,M,Santiago,Arquitectura,18.22,5.8,3465,Sí
+87,Alejandro Ortega,33,M,Santiago,Ingeniería,16.37,1.3,3633,Sí
+88,Isabella Flores,31,F,Buenos Aires,Arquitectura,14.98,0.6,1852,Sí
+89,Lucía González,27,M,Lima,Arquitectura,14.08,2.5,3718,Sí
+90,Camila López,34,F,Montevideo,Psicología,11.83,1.6,2389,Sí
+91,Isabella Rodríguez,35,F,Ciudad de México,Ingeniería,11.91,2.8,1874,Sí
+92,Santiago Rodríguez,34,M,Quito,Ingeniería,12.25,5.3,4342,Sí
+93,Martina Fernández,35,M,Buenos Aires,Arquitectura,14.47,0.8,3283,Sí
+94,Martina Pérez,28,F,Bogotá,Medicina,9.78,5.5,4875,No
+95,Tomás Fernández,31,M,Quito,Derecho,8.45,1.8,2543,No
+96,Tomás Rodríguez,34,F,Ciudad de México,Medicina,10.54,4.2,3626,No
+97,Alejandro Ramírez,35,M,Santiago,Arquitectura,12.39,0.0,2741,Sí
+98,Isabella Flores,26,M,Santiago,Economía,13.99,3.0,2297,Sí
+99,Santiago Ramírez,29,M,Ciudad de México,Derecho,13.22,1.3,2073,Sí
+100,Isabella Ramírez,21,F,Medellín,Economía,13.86,0.7,2015,Sí
+101,Tomás Sánchez,29,F,Bogotá,Arquitectura,12.41,4.3,3078,Sí
+102,Isabella Ramírez,38,M,Quito,Medicina,7.99,1.7,2589,No
+103,Tomás López,28,M,Santiago,Derecho,11.41,1.0,3456,Sí
+104,Camila Pérez,22,M,Medellín,Economía,9.52,0.3,2727,No
+105,Alejandro Romero,38,M,Medellín,Derecho,15.07,2.7,4747,Sí
+106,Martina González,32,F,Medellín,Psicología,13.71,4.7,4683,Sí
+107,Valentina Sánchez,29,M,Bogotá,Derecho,12.85,4.9,3605,Sí
+108,Lucía González,27,F,Quito,Medicina,15.39,0.2,2922,Sí
+109,Santiago Sánchez,25,M,Lima,Arquitectura,18.37,4.4,3288,Sí
+110,Tomás Romero,36,F,Santiago,Psicología,13.56,0.5,3840,Sí
+111,Alejandro López,25,F,Montevideo,Economía,13.56,5.6,3382,Sí
+112,Mateo Ramírez,28,M,Montevideo,Administración,15.11,0.6,4309,Sí
+113,Valentina Rodríguez,18,F,Quito,Arquitectura,18.78,2.7,4588,Sí
+114,Isabella Pérez,31,F,Lima,Derecho,14.54,4.1,2405,Sí
+115,Mateo Rodríguez,25,M,Bogotá,Arquitectura,14.75,1.2,4866,Sí
+116,Tomás Fernández,32,M,Lima,Economía,14.4,0.8,2979,Sí
+117,Camila Ortega,32,M,Montevideo,Administración,13.26,5.7,3445,Sí
+118,Diego Ortega,27,M,Ciudad de México,Derecho,12.83,5.2,2417,Sí
+119,Alejandro López,21,M,Bogotá,Administración,14.15,0.4,3030,Sí
+120,Diego Ortega,36,F,Ciudad de México,Psicología,16.63,3.5,3560,Sí
+121,Martina Fernández,37,M,Lima,Medicina,14.97,3.1,3652,Sí
+122,Diego Flores,22,M,Buenos Aires,Medicina,10.86,4.6,2183,No
+123,Mateo González,33,M,Lima,Administración,13.78,0.6,2614,Sí
+124,Isabella López,34,F,Buenos Aires,Psicología,15.05,0.8,1453,Sí
+125,Mateo Ramírez,27,F,Quito,Ingeniería,17.47,3.0,2615,Sí
+126,Mateo Romero,35,M,Montevideo,Psicología,20.0,4.3,3893,Sí
+127,Isabella Ramírez,38,M,Montevideo,Ingeniería,10.83,2.7,2139,No
+128,Lucía López,25,M,Santiago,Derecho,10.75,5.9,2860,No
+129,Mateo González,21,M,Buenos Aires,Medicina,13.44,4.7,2965,Sí
+130,Tomás Sánchez,30,M,Quito,Psicología,8.17,0.7,2540,No
+131,Diego Ortega,31,M,Santiago,Arquitectura,9.89,0.9,2632,No
+132,Lucía Pérez,29,M,Lima,Psicología,12.37,3.6,4061,Sí
+133,Alejandro Flores,35,F,Quito,Administración,13.93,0.0,4393,Sí
+134,Mateo González,36,F,Santiago,Derecho,8.43,5.9,1540,No
+135,Santiago López,28,F,Medellín,Economía,12.78,1.1,2064,Sí
+136,Camila Pérez,19,M,Lima,Arquitectura,17.65,2.5,2163,Sí
+137,Martina Pérez,24,F,Quito,Arquitectura,13.04,1.7,4630,Sí
+138,Valentina Fernández,36,F,Quito,Economía,11.85,5.6,3316,Sí
+139,Diego Pérez,33,F,Bogotá,Derecho,13.76,5.3,3772,Sí
+140,Mateo Rodríguez,39,M,Lima,Derecho,12.97,2.3,4933,Sí
+141,Martina Sánchez,27,F,Lima,Psicología,17.1,3.2,2649,Sí
+142,Tomás Fernández,28,M,Quito,Ingeniería,14.87,3.9,2942,Sí
+143,Valentina Romero,38,F,Medellín,Medicina,10.23,3.2,4407,No
+144,Martina González,26,M,Medellín,Psicología,12.06,1.3,3179,Sí
+145,Valentina López,26,M,Medellín,Derecho,9.43,0.7,4646,No
+146,Mateo Ramírez,37,M,Buenos Aires,Arquitectura,14.96,3.8,604,Sí
+147,Diego Romero,35,F,Ciudad de México,Arquitectura,14.01,0.6,2401,Sí
+148,Mateo Romero,30,F,Montevideo,Administración,17.28,3.5,1849,Sí
+149,Isabella Ortega,27,M,Medellín,Arquitectura,10.92,5.9,3292,No
+150,Lucía Sánchez,30,M,Bogotá,Psicología,14.9,3.5,3423,Sí
+151,Alejandro Rodríguez,19,F,Medellín,Arquitectura,11.29,4.5,1527,Sí
+152,Martina Sánchez,37,F,Montevideo,Economía,20.0,2.1,4478,Sí
+153,Diego López,34,F,Ciudad de México,Derecho,8.96,1.9,3714,No
+154,Santiago Ramírez,21,M,Medellín,Administración,13.21,0.6,3807,Sí
+155,Tomás Fernández,31,M,Montevideo,Derecho,15.56,0.1,3001,Sí
+156,Isabella González,37,F,Medellín,Economía,17.54,4.2,3872,Sí
+157,Tomás Sánchez,33,M,Medellín,Psicología,15.31,3.2,2833,Sí
+158,Camila Rodríguez,19,M,Ciudad de México,Ingeniería,14.08,4.9,4496,Sí
+159,Alejandro López,28,M,Buenos Aires,Derecho,12.62,4.7,1375,Sí
+160,Camila González,27,M,Santiago,Economía,16.44,4.5,2914,Sí
+161,Lucía Pérez,21,M,Buenos Aires,Medicina,13.98,0.5,2770,Sí
+162,Mateo López,38,M,Bogotá,Administración,15.79,1.9,3112,Sí
+163,Alejandro González,35,M,Medellín,Economía,14.39,1.7,2113,Sí
+164,Alejandro González,18,M,Lima,Psicología,13.78,4.3,4719,Sí
+165,Diego Rodríguez,29,M,Santiago,Derecho,13.79,2.3,2970,Sí
+166,Martina Fernández,22,F,Lima,Ingeniería,14.52,4.4,3308,Sí
+167,Diego Flores,24,F,Quito,Administración,15.0,1.1,2739,Sí
+168,Valentina González,36,M,Santiago,Derecho,13.68,5.7,2687,Sí
+169,Mateo Rodríguez,33,F,Santiago,Economía,15.03,0.8,2683,Sí
+170,Alejandro Pérez,31,M,Buenos Aires,Psicología,15.75,4.9,3618,Sí
+171,Santiago Sánchez,24,M,Ciudad de México,Administración,17.49,1.3,4406,Sí
+172,Diego Ortega,38,M,Santiago,Medicina,13.36,2.8,3619,Sí
+173,Alejandro Rodríguez,22,F,Ciudad de México,Administración,12.94,2.1,1419,Sí
+174,Camila Flores,24,M,Bogotá,Arquitectura,19.98,3.5,4003,Sí
+175,Camila Ortega,21,F,Medellín,Derecho,11.87,1.8,2283,Sí
+176,Isabella Rodríguez,28,M,Ciudad de México,Administración,13.51,4.7,3354,Sí
+177,Lucía Flores,32,F,Medellín,Administración,15.5,0.0,2384,Sí
+178,Mateo Ramírez,39,F,Ciudad de México,Economía,13.19,4.1,3209,Sí
+179,Alejandro Ortega,27,M,Medellín,Derecho,12.24,5.7,3780,Sí
+180,Martina Ortega,27,M,Bogotá,Arquitectura,11.28,4.6,3678,Sí
+181,Camila Flores,25,F,Santiago,Psicología,14.48,2.3,1264,Sí
+182,Martina Fernández,38,M,Buenos Aires,Medicina,12.94,2.2,3789,Sí
+183,Camila Flores,35,F,Lima,Economía,14.3,2.0,2582,Sí
+184,Martina Sánchez,24,M,Bogotá,Ingeniería,9.79,0.4,3203,No
+185,Tomás Pérez,18,F,Montevideo,Psicología,20.0,1.8,2035,Sí
+186,Mateo Ramírez,22,M,Santiago,Medicina,14.98,2.4,3816,Sí
+187,Santiago Rodríguez,22,M,Santiago,Medicina,12.76,1.8,2770,Sí
+188,Martina Sánchez,32,F,Lima,Psicología,12.19,5.6,2691,Sí
+189,Diego López,24,F,Ciudad de México,Psicología,11.14,3.1,3301,Sí
+190,Tomás López,37,M,Montevideo,Administración,16.63,3.1,3746,Sí
+191,Alejandro Pérez,37,F,Santiago,Administración,8.93,2.9,2669,No
+192,Martina Flores,26,M,Ciudad de México,Administración,10.22,4.7,3307,No
+193,Mateo Romero,31,M,Medellín,Economía,17.79,1.0,4058,Sí
+194,Valentina López,28,M,Lima,Arquitectura,12.0,0.3,2833,Sí
+195,Tomás Sánchez,28,F,Quito,Economía,14.15,2.1,3327,Sí
+196,Camila Pérez,28,M,Santiago,Arquitectura,18.78,5.2,1634,Sí
+197,Martina González,19,F,Quito,Economía,13.09,5.2,2254,Sí
+198,Diego Ramírez,39,F,Medellín,Administración,15.1,0.5,2167,Sí
+199,Lucía Rodríguez,21,F,Lima,Psicología,16.23,1.0,3339,Sí
+200,Valentina Ortega,25,F,Bogotá,Derecho,16.09,3.4,3998,Sí
+201,Tomás Fernández,20,M,Bogotá,Administración,12.43,3.4,1975,Sí
+202,Mateo Fernández,35,M,Quito,Medicina,15.48,1.5,3758,Sí
+203,Tomás Pérez,18,M,Lima,Economía,16.44,4.3,1631,Sí
+204,Lucía Sánchez,31,M,Lima,Arquitectura,12.54,3.7,2852,Sí
+205,Alejandro Pérez,30,M,Quito,Administración,18.38,4.7,3295,Sí
+206,Diego Pérez,33,M,Ciudad de México,Arquitectura,14.85,1.7,3996,Sí
+207,Lucía Flores,36,M,Bogotá,Administración,15.03,4.9,4293,Sí
+208,Camila Romero,29,M,Santiago,Economía,14.86,0.9,2775,Sí
+209,Lucía Pérez,24,F,Montevideo,Economía,12.89,4.7,4246,Sí
+210,Diego Romero,32,M,Ciudad de México,Ingeniería,12.15,3.5,2616,Sí
+211,Mateo Rodríguez,33,M,Bogotá,Economía,12.17,2.4,3008,Sí
+212,Valentina Sánchez,32,M,Ciudad de México,Derecho,16.06,6.0,1017,Sí
+213,Santiago Sánchez,23,M,Bogotá,Derecho,12.97,2.4,3848,Sí
+214,Diego Fernández,29,M,Ciudad de México,Arquitectura,14.09,4.4,2081,Sí
+215,Valentina Ortega,37,M,Montevideo,Economía,10.27,1.5,4472,No
+216,Martina González,31,F,Bogotá,Economía,13.47,0.1,3934,Sí
+217,Mateo Rodríguez,37,F,Medellín,Medicina,14.63,3.7,3348,Sí
+218,Lucía López,32,F,Montevideo,Psicología,13.21,3.0,1590,Sí
+219,Isabella Sánchez,26,F,Bogotá,Administración,10.88,3.1,1193,No
+220,Camila Rodríguez,31,M,Montevideo,Ingeniería,13.16,4.2,2368,Sí
+221,Camila Ortega,25,M,Lima,Administración,17.21,5.2,2344,Sí
+222,Valentina González,22,F,Ciudad de México,Administración,13.91,5.5,2202,Sí
+223,Martina Ramírez,33,F,Santiago,Psicología,10.63,3.9,2095,No
+224,Valentina Romero,26,F,Medellín,Administración,12.9,3.2,3995,Sí
+225,Lucía Rodríguez,31,M,Lima,Economía,15.55,5.5,2451,Sí
+226,Tomás Ramírez,22,M,Buenos Aires,Derecho,10.2,0.2,3993,No
+227,Camila Pérez,21,F,Medellín,Ingeniería,17.79,2.7,3069,Sí
+228,Diego González,33,M,Montevideo,Arquitectura,11.98,1.8,3303,Sí
+229,Tomás Flores,36,M,Bogotá,Derecho,12.73,2.1,4301,Sí
+230,Martina Romero,26,F,Lima,Arquitectura,11.14,2.5,3256,Sí
+231,Diego Romero,38,F,Medellín,Ingeniería,15.8,1.0,3023,Sí
+232,Lucía Sánchez,29,M,Medellín,Economía,17.27,4.9,4003,Sí
+233,Alejandro Sánchez,38,F,Buenos Aires,Arquitectura,12.93,0.2,4173,Sí
+234,Isabella Flores,35,F,Lima,Administración,13.62,6.0,2738,Sí
+235,Valentina Sánchez,30,F,Quito,Medicina,12.56,0.8,3100,Sí
+236,Mateo Ortega,23,M,Quito,Administración,13.17,2.9,3197,Sí
+237,Alejandro Flores,33,M,Buenos Aires,Administración,9.66,3.8,3034,No
+238,Camila Pérez,22,F,Ciudad de México,Economía,13.3,2.2,3135,Sí
+239,Martina Flores,31,M,Ciudad de México,Derecho,14.54,4.3,2847,Sí
+240,Camila Pérez,18,M,Quito,Psicología,13.88,0.3,2333,Sí
+241,Santiago Sánchez,20,F,Santiago,Arquitectura,11.71,4.0,3285,Sí
+242,Valentina Pérez,18,F,Quito,Economía,13.14,2.5,3704,Sí
+243,Isabella Ramírez,37,M,Lima,Economía,15.03,0.3,4160,Sí
+244,Lucía Pérez,35,F,Medellín,Administración,11.47,3.5,4397,Sí
+245,Camila Ortega,26,F,Quito,Ingeniería,16.18,3.2,3924,Sí
+246,Santiago Romero,26,M,Buenos Aires,Arquitectura,17.83,1.7,4333,Sí
+247,Valentina Rodríguez,21,F,Buenos Aires,Psicología,14.52,0.2,3510,Sí
+248,Alejandro López,27,F,Santiago,Arquitectura,8.24,2.6,3669,No
+249,Valentina Ramírez,38,F,Quito,Economía,18.7,4.4,2703,Sí
+250,Tomás Flores,35,F,Ciudad de México,Arquitectura,11.45,4.9,1921,Sí
+251,Santiago Fernández,34,F,Bogotá,Psicología,11.68,0.8,4146,Sí
+252,Tomás Ramírez,39,M,Quito,Administración,14.66,0.8,3160,Sí
+253,Camila Ramírez,30,F,Medellín,Medicina,16.74,0.5,3582,Sí
+254,Lucía Ramírez,19,F,Montevideo,Medicina,12.82,1.1,2190,Sí
+255,Camila Pérez,38,M,Buenos Aires,Medicina,10.11,5.9,1165,No
+256,Diego Pérez,23,F,Medellín,Psicología,15.18,2.1,3622,Sí
+257,Lucía Flores,26,F,Bogotá,Medicina,17.4,2.7,3741,Sí
+258,Valentina González,20,F,Quito,Economía,12.83,0.9,4066,Sí
+259,Lucía Flores,18,F,Quito,Derecho,13.53,5.8,1821,Sí
+260,Valentina Fernández,22,M,Bogotá,Economía,16.53,2.7,3127,Sí
+261,Santiago González,25,M,Santiago,Medicina,18.59,5.1,3209,Sí
+262,Lucía Romero,33,M,Medellín,Ingeniería,18.42,1.5,1439,Sí
+263,Santiago Fernández,37,M,Santiago,Medicina,11.92,2.9,2479,Sí
+264,Alejandro Fernández,22,F,Ciudad de México,Administración,14.96,1.6,4354,Sí
+265,Santiago Fernández,28,M,Bogotá,Ingeniería,14.74,5.3,1964,Sí
+266,Santiago López,33,M,Buenos Aires,Psicología,12.95,1.4,2879,Sí
+267,Santiago Ramírez,24,F,Buenos Aires,Psicología,17.82,4.8,4097,Sí
+268,Santiago Ramírez,30,F,Lima,Ingeniería,13.41,5.9,3467,Sí
+269,Camila González,32,M,Montevideo,Medicina,16.56,5.7,1172,Sí
+270,Valentina Fernández,30,F,Ciudad de México,Administración,13.53,3.0,1551,Sí
+271,Santiago López,39,M,Santiago,Psicología,16.71,4.6,3396,Sí
+272,Santiago Ortega,34,M,Medellín,Psicología,13.92,5.0,4676,Sí
+273,Camila Pérez,37,M,Lima,Arquitectura,15.02,3.7,2592,Sí
+274,Tomás González,28,M,Buenos Aires,Arquitectura,16.76,4.1,2686,Sí
+275,Tomás Rodríguez,29,M,Bogotá,Psicología,16.51,1.1,5240,Sí
+276,Martina González,23,M,Lima,Economía,7.01,3.3,2836,No
+277,Isabella González,18,M,Medellín,Derecho,12.27,3.5,2881,Sí
+278,Isabella Flores,19,M,Medellín,Medicina,8.59,1.2,1583,No
+279,Tomás Pérez,23,M,Santiago,Psicología,16.36,1.3,1844,Sí
+280,Martina Ortega,37,M,Buenos Aires,Ingeniería,15.7,4.7,3793,Sí
+281,Mateo Flores,28,M,Lima,Derecho,15.84,0.4,1801,Sí
+282,Camila Flores,19,F,Santiago,Economía,13.62,4.1,1294,Sí
+283,Santiago Romero,39,M,Quito,Ingeniería,14.27,0.0,5034,Sí
+284,Mateo Ramírez,37,M,Ciudad de México,Psicología,13.48,4.3,3875,Sí
+285,Camila Pérez,39,F,Montevideo,Administración,11.73,0.4,2089,Sí
+286,Diego Rodríguez,34,M,Montevideo,Economía,15.47,0.8,2720,Sí
+287,Diego Romero,39,F,Medellín,Derecho,10.62,1.4,3284,No
+288,Santiago Fernández,36,F,Buenos Aires,Derecho,12.92,2.1,2549,Sí
+289,Tomás Ortega,28,F,Bogotá,Medicina,15.98,4.4,2774,Sí
+290,Valentina Fernández,20,F,Medellín,Administración,10.39,1.2,3833,No
+291,Lucía Ortega,30,M,Quito,Medicina,8.82,5.5,4624,No
+292,Martina González,22,F,Lima,Derecho,14.91,4.0,3100,Sí
+293,Camila Flores,31,F,Santiago,Economía,10.34,2.5,2234,No
+294,Tomás Ortega,33,F,Lima,Derecho,14.24,0.9,1193,Sí
+295,Isabella Ortega,34,F,Quito,Economía,14.13,4.9,3534,Sí
+296,Diego Rodríguez,31,F,Lima,Economía,13.57,1.9,3735,Sí
+297,Valentina Fernández,33,M,Medellín,Arquitectura,11.74,1.0,3682,Sí
+298,Isabella Pérez,32,F,Montevideo,Economía,11.68,1.1,3709,Sí
+299,Lucía Ramírez,18,F,Quito,Economía,12.27,4.6,1695,Sí
+300,Diego Ramírez,23,F,Bogotá,Administración,12.15,1.6,3197,Sí
+301,Lucía Rodríguez,23,M,Medellín,Derecho,16.72,1.0,2670,Sí
+302,Tomás López,36,F,Montevideo,Psicología,13.04,4.1,1935,Sí
+303,Santiago Sánchez,25,M,Montevideo,Derecho,14.2,4.0,2733,Sí
+304,Tomás Fernández,36,M,Bogotá,Arquitectura,10.05,0.1,1853,No
+305,Tomás González,23,M,Buenos Aires,Derecho,20.0,0.0,2739,Sí
+306,Tomás Sánchez,25,F,Bogotá,Ingeniería,13.08,1.1,2394,Sí
+307,Valentina López,28,F,Lima,Psicología,15.33,2.3,1221,Sí
+308,Martina Sánchez,28,F,Ciudad de México,Medicina,13.57,2.3,3290,Sí
+309,Mateo Ramírez,28,F,Ciudad de México,Administración,15.88,2.5,3569,Sí
+310,Lucía Ortega,22,F,Montevideo,Derecho,10.0,5.1,3418,No
+311,Mateo Fernández,32,M,Bogotá,Ingeniería,13.58,5.5,1296,Sí
+312,Isabella Rodríguez,26,F,Buenos Aires,Administración,14.7,3.3,3892,Sí
+313,Lucía Ramírez,39,M,Medellín,Psicología,13.74,1.0,2698,Sí
+314,Santiago Ramírez,32,M,Montevideo,Arquitectura,11.51,1.3,3738,Sí
+315,Isabella Sánchez,30,F,Quito,Ingeniería,15.76,5.2,3023,Sí
+316,Isabella Fernández,37,F,Lima,Derecho,15.78,4.3,1312,Sí
+317,Martina Pérez,19,F,Lima,Derecho,14.74,3.4,3355,Sí
+318,Camila González,24,F,Bogotá,Medicina,15.58,2.5,2023,Sí
+319,Isabella Pérez,39,F,Montevideo,Economía,13.06,0.7,3462,Sí
+320,Valentina Sánchez,27,F,Bogotá,Psicología,15.78,5.1,1679,Sí
+321,Tomás Flores,35,M,Buenos Aires,Derecho,12.53,1.6,875,Sí
+322,Valentina Rodríguez,20,M,Ciudad de México,Arquitectura,12.79,5.2,3356,Sí
+323,Mateo López,19,F,Lima,Medicina,13.38,1.3,3701,Sí
+324,Santiago Sánchez,33,F,Santiago,Administración,17.01,2.2,4936,Sí
+325,Diego Ramírez,33,M,Medellín,Administración,10.46,4.2,2563,No
+326,Diego Flores,21,M,Ciudad de México,Arquitectura,16.79,2.7,2796,Sí
+327,Isabella Pérez,27,F,Medellín,Administración,11.1,1.8,4715,Sí
+328,Martina López,29,M,Quito,Arquitectura,14.95,3.3,767,Sí
+329,Alejandro Pérez,18,M,Montevideo,Administración,12.74,4.2,4370,Sí
+330,Diego Ortega,26,M,Ciudad de México,Psicología,15.96,1.8,2355,Sí
+331,Valentina Fernández,37,M,Medellín,Economía,13.4,3.1,2191,Sí
+332,Martina Fernández,19,M,Ciudad de México,Medicina,12.56,3.5,3568,Sí
+333,Diego Sánchez,39,F,Santiago,Arquitectura,15.59,4.3,2012,Sí
+334,Alejandro Flores,33,F,Quito,Economía,15.23,4.8,1264,Sí
+335,Mateo Fernández,19,M,Lima,Ingeniería,13.7,5.7,4732,Sí
+336,Diego Flores,28,F,Lima,Medicina,18.13,6.0,3843,Sí
+337,Camila Flores,32,F,Medellín,Economía,15.01,5.6,3936,Sí
+338,Lucía Sánchez,23,M,Montevideo,Arquitectura,12.41,3.4,2377,Sí
+339,Martina Sánchez,39,M,Santiago,Administración,12.81,2.6,3269,Sí
+340,Mateo Sánchez,21,F,Lima,Psicología,12.51,5.5,4030,Sí
+341,Tomás Ortega,28,M,Quito,Arquitectura,11.74,2.3,4581,Sí
+342,Martina Fernández,36,M,Lima,Medicina,14.07,0.2,1956,Sí
+343,Isabella Romero,39,F,Buenos Aires,Psicología,16.82,0.4,2407,Sí
+344,Lucía López,23,M,Medellín,Medicina,13.91,3.9,3938,Sí
+345,Camila Romero,19,F,Lima,Economía,12.66,0.8,4774,Sí
+346,Alejandro González,18,F,Buenos Aires,Administración,16.81,1.1,3693,Sí
+347,Valentina González,34,M,Medellín,Arquitectura,12.78,4.8,2200,Sí
+348,Mateo Ramírez,39,F,Montevideo,Arquitectura,17.56,4.6,2664,Sí
+349,Isabella Fernández,21,M,Quito,Administración,14.14,2.4,2416,Sí
+350,Valentina Ortega,34,M,Lima,Arquitectura,19.49,2.2,3428,Sí
+351,Camila Pérez,39,F,Montevideo,Derecho,11.73,5.2,3173,Sí
+352,Isabella Fernández,23,M,Bogotá,Administración,15.66,5.1,3049,Sí
+353,Tomás Flores,29,F,Quito,Arquitectura,11.63,4.6,2771,Sí
+354,Valentina Sánchez,25,M,Quito,Psicología,12.62,1.5,4530,Sí
+355,Tomás Fernández,23,M,Santiago,Arquitectura,12.16,4.2,2645,Sí
+356,Isabella Sánchez,19,F,Medellín,Administración,18.6,4.1,3718,Sí
+357,Lucía Romero,24,M,Quito,Medicina,17.0,4.7,4756,Sí
+358,Santiago Romero,39,F,Lima,Arquitectura,13.65,3.8,2404,Sí
+359,Alejandro Ortega,34,M,Santiago,Arquitectura,13.21,4.3,3297,Sí
+360,Valentina Romero,33,M,Santiago,Ingeniería,12.36,0.6,3938,Sí
+361,Valentina Romero,26,F,Lima,Administración,18.0,5.5,2223,Sí
+362,Lucía Rodríguez,30,F,Quito,Administración,12.2,3.2,2924,Sí
+363,Valentina López,33,M,Lima,Ingeniería,12.09,2.8,3522,Sí
+364,Martina López,28,F,Lima,Psicología,13.93,5.7,3174,Sí
+365,Diego López,29,M,Santiago,Derecho,16.82,2.6,1158,Sí
+366,Lucía Pérez,35,M,Buenos Aires,Arquitectura,9.06,0.3,2853,No
+367,Valentina Ramírez,33,M,Quito,Medicina,16.94,5.1,1131,Sí
+368,Diego Flores,19,M,Santiago,Psicología,13.72,0.8,763,Sí
+369,Mateo Ortega,23,F,Buenos Aires,Arquitectura,12.26,1.2,4688,Sí
+370,Diego Sánchez,26,M,Quito,Arquitectura,14.47,5.7,4733,Sí
+371,Tomás Flores,39,M,Ciudad de México,Derecho,15.57,4.1,2499,Sí
+372,Mateo Ramírez,27,M,Ciudad de México,Arquitectura,12.08,3.8,3927,Sí
+373,Lucía Fernández,18,M,Bogotá,Ingeniería,10.12,3.2,1799,No
+374,Camila González,35,M,Lima,Arquitectura,16.97,4.9,805,Sí
+375,Martina Rodríguez,30,F,Bogotá,Psicología,12.55,4.1,3899,Sí
+376,Valentina Sánchez,19,F,Buenos Aires,Arquitectura,18.77,4.4,3141,Sí
+377,Lucía González,19,F,Buenos Aires,Derecho,10.16,1.1,3483,No
+378,Lucía Ortega,25,F,Medellín,Economía,14.36,2.8,3270,Sí
+379,Lucía Ramírez,31,F,Ciudad de México,Psicología,15.22,1.6,2919,Sí
+380,Valentina Ortega,30,M,Bogotá,Ingeniería,15.01,1.3,1913,Sí
+381,Alejandro Fernández,20,M,Santiago,Ingeniería,12.63,1.8,1666,Sí
+382,Isabella Rodríguez,39,F,Quito,Psicología,13.57,2.6,3728,Sí
+383,Alejandro Ramírez,20,F,Bogotá,Administración,12.06,1.8,4907,Sí
+384,Martina Romero,24,F,Ciudad de México,Derecho,16.42,5.9,3533,Sí
+385,Alejandro Romero,34,F,Bogotá,Medicina,14.75,1.3,3460,Sí
+386,Lucía Ramírez,18,F,Ciudad de México,Economía,10.98,5.0,2351,No
+387,Mateo Ramírez,20,M,Buenos Aires,Ingeniería,14.64,3.7,3228,Sí
+388,Lucía Romero,39,F,Quito,Administración,14.58,4.7,3329,Sí
+389,Martina Romero,29,F,Medellín,Arquitectura,18.48,0.9,5253,Sí
+390,Valentina Romero,29,M,Lima,Medicina,15.94,1.8,3513,Sí
+391,Diego Romero,27,M,Quito,Psicología,13.11,0.4,3397,Sí
+392,Isabella Sánchez,19,M,Lima,Administración,11.38,3.5,1734,Sí
+393,Tomás Rodríguez,28,M,Buenos Aires,Ingeniería,14.43,0.4,2091,Sí
+394,Lucía Pérez,37,F,Bogotá,Arquitectura,14.33,4.6,4135,Sí
+395,Camila Fernández,30,F,Buenos Aires,Administración,11.13,0.6,2257,Sí
+396,Diego López,31,F,Quito,Ingeniería,12.65,0.4,2701,Sí
+397,Isabella González,30,M,Quito,Arquitectura,16.45,3.2,3020,Sí
+398,Lucía González,25,M,Santiago,Arquitectura,12.16,2.9,1014,Sí
+399,Valentina Romero,26,M,Ciudad de México,Arquitectura,15.01,5.5,2793,Sí
+400,Valentina Rodríguez,26,F,Montevideo,Ingeniería,13.01,5.4,2505,Sí
+401,Tomás Romero,23,F,Ciudad de México,Ingeniería,12.55,3.6,3421,Sí
+402,Alejandro Ramírez,29,F,Medellín,Ingeniería,11.71,3.9,4302,Sí
+403,Tomás González,25,F,Buenos Aires,Medicina,14.58,3.7,3055,Sí
+404,Diego Romero,32,F,Lima,Medicina,15.1,4.7,2775,Sí
+405,Isabella López,18,F,Lima,Arquitectura,15.58,0.8,3424,Sí
+406,Santiago López,38,F,Ciudad de México,Derecho,11.48,1.7,2184,Sí
+407,Martina Flores,26,M,Medellín,Derecho,15.37,1.4,1835,Sí
+408,Alejandro Sánchez,22,M,Buenos Aires,Psicología,13.6,2.4,2511,Sí
+409,Mateo Romero,37,M,Ciudad de México,Arquitectura,15.62,4.7,3851,Sí
+410,Valentina Ramírez,38,M,Lima,Administración,14.18,5.6,1845,Sí
+411,Martina Sánchez,33,F,Bogotá,Arquitectura,13.3,5.3,1954,Sí
+412,Alejandro Rodríguez,28,F,Lima,Economía,18.64,2.1,1337,Sí
+413,Valentina Ramírez,24,F,Lima,Derecho,10.97,0.2,3686,No
+414,Diego Sánchez,38,F,Quito,Medicina,13.8,3.9,4156,Sí
+415,Mateo Ortega,30,F,Lima,Arquitectura,12.05,0.3,4285,Sí
+416,Santiago Rodríguez,25,M,Buenos Aires,Medicina,14.3,1.6,3368,Sí
+417,Lucía Ramírez,35,M,Medellín,Economía,15.21,1.3,4327,Sí
+418,Santiago Pérez,33,M,Quito,Administración,15.27,0.5,3677,Sí
+419,Diego Ortega,28,F,Bogotá,Psicología,12.04,1.2,4052,Sí
+420,Santiago Sánchez,31,M,Montevideo,Ingeniería,17.27,2.4,3152,Sí
+421,Isabella Ortega,19,F,Ciudad de México,Derecho,16.37,1.9,2696,Sí
+422,Valentina López,22,M,Lima,Arquitectura,12.87,1.5,3450,Sí
+423,Martina Sánchez,33,F,Medellín,Administración,15.13,3.2,2759,Sí
+424,Lucía Fernández,21,M,Montevideo,Administración,15.52,3.1,3185,Sí
+425,Lucía Ramírez,28,M,Bogotá,Administración,13.99,4.3,1023,Sí
+426,Alejandro Ortega,20,F,Bogotá,Derecho,17.61,5.4,1961,Sí
+427,Alejandro Fernández,26,F,Ciudad de México,Derecho,12.87,2.7,3050,Sí
+428,Valentina Romero,24,F,Bogotá,Psicología,15.85,1.6,2515,Sí
+429,Santiago Pérez,20,F,Quito,Psicología,14.41,0.7,1964,Sí
+430,Diego Flores,35,M,Ciudad de México,Economía,10.68,3.2,2895,No
+431,Camila Ortega,26,M,Lima,Ingeniería,15.3,3.0,5083,Sí
+432,Mateo Ortega,29,M,Buenos Aires,Ingeniería,10.54,0.7,3416,No
+433,Lucía González,18,M,Buenos Aires,Economía,11.23,5.2,3618,Sí
+434,Santiago Ortega,33,F,Santiago,Medicina,14.46,4.3,3694,Sí
+435,Tomás Sánchez,39,M,Quito,Psicología,13.88,0.6,2368,Sí
+436,Tomás Rodríguez,25,M,Montevideo,Arquitectura,11.03,4.1,4333,Sí
+437,Mateo Fernández,38,M,Lima,Arquitectura,12.72,4.5,3480,Sí
+438,Diego Fernández,38,M,Quito,Administración,14.0,3.4,2056,Sí
+439,Lucía Fernández,33,M,Bogotá,Medicina,12.64,2.4,2731,Sí
+440,Lucía Romero,22,F,Lima,Arquitectura,11.2,0.6,2380,Sí
+441,Tomás Ramírez,26,M,Ciudad de México,Ingeniería,10.9,1.7,3682,No
+442,Mateo González,35,M,Lima,Medicina,10.96,2.0,3889,No
+443,Camila González,34,F,Buenos Aires,Psicología,13.95,3.4,1854,Sí
+444,Diego Ramírez,24,M,Buenos Aires,Psicología,12.95,1.6,2166,Sí
+445,Tomás Pérez,18,M,Bogotá,Derecho,14.47,5.9,3362,Sí
+446,Diego Flores,35,M,Lima,Administración,11.35,4.8,1824,Sí
+447,Isabella González,25,F,Quito,Derecho,12.56,1.6,2377,Sí
+448,Martina Flores,18,F,Buenos Aires,Ingeniería,12.27,4.4,3281,Sí
+449,Tomás Flores,33,F,Medellín,Ingeniería,12.25,5.9,2986,Sí
+450,Mateo Fernández,28,M,Bogotá,Ingeniería,9.77,0.4,2941,No
+451,Diego Fernández,39,M,Medellín,Economía,13.61,0.6,2063,Sí
+452,Tomás López,39,F,Lima,Economía,13.88,0.6,1620,Sí
+453,Diego Romero,26,F,Quito,Administración,17.94,4.1,4644,Sí
+454,Valentina Fernández,27,M,Buenos Aires,Derecho,11.75,0.2,2016,Sí
+455,Tomás Sánchez,34,F,Bogotá,Medicina,9.59,5.7,2919,No
+456,Diego Flores,30,M,Medellín,Economía,14.03,0.7,837,Sí
+457,Isabella Rodríguez,32,F,Buenos Aires,Administración,13.02,0.7,2481,Sí
+458,Camila Rodríguez,20,F,Buenos Aires,Administración,12.56,0.1,2759,Sí
+459,Lucía Romero,24,M,Buenos Aires,Psicología,17.71,4.1,2709,Sí
+460,Camila Rodríguez,28,M,Santiago,Psicología,9.88,2.4,3918,No
+461,Lucía Flores,26,F,Ciudad de México,Psicología,13.11,3.7,2305,Sí
+462,Tomás Pérez,18,F,Medellín,Ingeniería,15.32,3.2,4732,Sí
+463,Isabella Pérez,20,M,Quito,Economía,15.28,3.2,3067,Sí
+464,Camila Fernández,35,F,Buenos Aires,Ingeniería,12.68,5.8,3517,Sí
+465,Diego Fernández,18,M,Quito,Administración,12.32,2.1,4058,Sí
+466,Camila Sánchez,32,F,Medellín,Medicina,16.8,5.2,3787,Sí
+467,Lucía Ortega,20,F,Montevideo,Arquitectura,14.23,5.9,3632,Sí
+468,Camila López,28,M,Buenos Aires,Derecho,11.95,5.0,2358,Sí
+469,Lucía Romero,37,F,Lima,Administración,16.38,1.9,3043,Sí
+470,Martina Ramírez,35,F,Buenos Aires,Ingeniería,12.56,5.5,3677,Sí
+471,Tomás Pérez,29,F,Ciudad de México,Psicología,14.75,0.7,2569,Sí
+472,Alejandro Fernández,33,F,Bogotá,Economía,13.55,4.3,2683,Sí
+473,Valentina Ramírez,18,F,Ciudad de México,Medicina,12.56,0.2,1531,Sí
+474,Isabella González,29,M,Ciudad de México,Medicina,13.06,0.3,1917,Sí
+475,Valentina Sánchez,22,M,Medellín,Medicina,13.92,2.0,3288,Sí
+476,Alejandro Rodríguez,30,M,Lima,Ingeniería,12.53,2.5,3502,Sí
+477,Valentina Ramírez,33,M,Bogotá,Psicología,9.91,0.0,1618,No
+478,Valentina Romero,23,F,Ciudad de México,Economía,14.24,1.5,2465,Sí
+479,Santiago González,19,F,Medellín,Arquitectura,13.09,2.2,3265,Sí
+480,Tomás Fernández,34,M,Medellín,Medicina,10.3,3.2,3249,No
+481,Alejandro Ramírez,39,F,Quito,Ingeniería,18.04,0.9,5425,Sí
+482,Valentina Sánchez,32,F,Medellín,Arquitectura,11.67,2.6,3767,Sí
+483,Isabella Rodríguez,32,M,Medellín,Medicina,13.42,0.6,3648,Sí
+484,Mateo Pérez,24,M,Montevideo,Economía,11.0,5.5,3398,Sí
+485,Lucía Pérez,18,M,Bogotá,Economía,9.97,4.8,3770,No
+486,Lucía Romero,25,F,Montevideo,Administración,12.54,4.3,2109,Sí
+487,Lucía Pérez,21,M,Medellín,Medicina,15.55,5.5,3954,Sí
+488,Camila Ortega,19,F,Bogotá,Derecho,14.2,3.5,2329,Sí
+489,Diego Romero,26,M,Bogotá,Psicología,18.43,1.0,2923,Sí
+490,Alejandro Romero,33,M,Lima,Medicina,12.63,2.5,2282,Sí
+491,Diego Rodríguez,23,M,Quito,Psicología,15.79,5.1,2920,Sí
+492,Diego Sánchez,30,M,Santiago,Psicología,14.47,4.0,2520,Sí
+493,Santiago Sánchez,28,F,Ciudad de México,Medicina,13.94,2.7,5585,Sí
+494,Alejandro Romero,35,M,Santiago,Arquitectura,15.57,2.9,2387,Sí
+495,Alejandro Romero,26,F,Lima,Medicina,14.02,4.1,1592,Sí
+496,Lucía Fernández,33,F,Bogotá,Arquitectura,13.61,3.9,3581,Sí
+497,Tomás Fernández,28,F,Lima,Administración,13.78,3.1,3233,Sí
+498,Diego Flores,18,M,Ciudad de México,Psicología,15.28,4.0,2253,Sí
+499,Diego Sánchez,25,M,Lima,Economía,10.64,2.0,3932,No
+500,Valentina Fernández,20,M,Ciudad de México,Derecho,14.61,2.9,4812,Sí
+501,Lucía Ramírez,20,F,Lima,Administración,15.39,4.8,3161,Sí
+502,Valentina Ortega,18,M,Buenos Aires,Psicología,9.44,4.9,3633,No
+503,Martina González,32,M,Buenos Aires,Medicina,11.85,2.2,3750,Sí
+504,Martina Rodríguez,32,M,Quito,Derecho,7.3,5.6,3499,No
+505,Mateo Romero,22,F,Ciudad de México,Ingeniería,16.51,4.6,4290,Sí
+506,Martina Sánchez,25,F,Bogotá,Psicología,9.86,2.2,2493,No
+507,Martina Fernández,27,F,Buenos Aires,Medicina,12.16,1.9,3913,Sí
+508,Mateo Rodríguez,29,F,Quito,Derecho,15.22,2.2,4066,Sí
+509,Tomás Pérez,24,F,Montevideo,Ingeniería,17.12,1.4,3449,Sí
+510,Alejandro Fernández,30,M,Santiago,Psicología,16.44,2.2,1885,Sí
+511,Mateo Sánchez,32,M,Santiago,Economía,14.63,2.2,4000,Sí
+512,Santiago González,19,F,Santiago,Economía,17.41,5.6,2609,Sí
+513,Lucía Ramírez,35,F,Lima,Derecho,10.53,1.4,3036,No
+514,Mateo Pérez,18,M,Bogotá,Derecho,11.61,1.3,1902,Sí
+515,Lucía Rodríguez,35,F,Lima,Administración,16.37,2.9,3557,Sí
+516,Alejandro Rodríguez,27,F,Buenos Aires,Economía,16.19,5.9,5319,Sí
+517,Diego Rodríguez,30,F,Bogotá,Arquitectura,13.69,1.8,3152,Sí
+518,Isabella Flores,39,M,Buenos Aires,Arquitectura,18.25,3.0,3427,Sí
+519,Isabella Flores,35,F,Buenos Aires,Administración,14.59,5.6,4757,Sí
+520,Camila López,35,F,Bogotá,Administración,17.02,4.1,560,Sí
+521,Martina Ramírez,19,M,Bogotá,Derecho,12.4,1.9,3063,Sí
+522,Lucía Fernández,35,M,Montevideo,Ingeniería,7.48,2.1,1620,No
+523,Santiago Pérez,25,F,Buenos Aires,Ingeniería,14.53,3.5,5351,Sí
+524,Lucía Pérez,27,F,Buenos Aires,Economía,12.72,1.0,2940,Sí
+525,Martina Pérez,32,F,Medellín,Derecho,13.5,1.4,1214,Sí
+526,Valentina Pérez,35,F,Bogotá,Medicina,13.94,5.8,3112,Sí
+527,Alejandro González,27,M,Lima,Administración,12.68,5.0,1978,Sí
+528,Valentina Fernández,18,M,Ciudad de México,Economía,12.92,4.9,3115,Sí
+529,Alejandro Flores,36,F,Montevideo,Arquitectura,14.0,1.0,2776,Sí
+530,Diego Romero,32,F,Medellín,Arquitectura,11.8,5.4,3128,Sí
+531,Camila Flores,24,M,Montevideo,Derecho,19.77,0.2,3962,Sí
+532,Lucía Fernández,30,F,Ciudad de México,Arquitectura,20.0,5.7,2864,Sí
+533,Martina Ortega,25,M,Bogotá,Arquitectura,15.67,5.3,3710,Sí
+534,Martina Romero,23,M,Lima,Medicina,15.58,0.1,2124,Sí
+535,Valentina González,31,F,Buenos Aires,Derecho,15.44,5.9,3890,Sí
+536,Camila López,30,M,Montevideo,Derecho,14.15,4.2,3563,Sí
+537,Valentina Ramírez,28,F,Quito,Medicina,12.47,1.3,2618,Sí
+538,Valentina González,29,F,Ciudad de México,Medicina,13.38,5.0,3280,Sí
+539,Santiago Ramírez,32,M,Ciudad de México,Medicina,15.62,2.0,2463,Sí
+540,Alejandro Ortega,35,F,Lima,Ingeniería,12.91,5.7,2787,Sí
+541,Mateo González,37,F,Medellín,Psicología,13.08,2.2,2058,Sí
+542,Camila Flores,27,F,Medellín,Administración,14.16,4.3,4514,Sí
+543,Isabella González,28,F,Medellín,Medicina,13.33,3.5,1328,Sí
+544,Martina Romero,18,M,Bogotá,Psicología,15.65,4.3,2733,Sí
+545,Lucía Sánchez,30,M,Bogotá,Economía,15.04,0.2,2620,Sí
+546,Valentina Pérez,28,F,Montevideo,Administración,13.08,3.1,3030,Sí
+547,Diego Fernández,26,F,Buenos Aires,Arquitectura,12.89,5.9,3635,Sí
+548,Isabella Rodríguez,22,M,Quito,Medicina,14.6,0.1,4282,Sí
+549,Diego López,35,F,Bogotá,Arquitectura,16.18,1.5,3173,Sí
+550,Camila Flores,22,F,Santiago,Administración,14.09,0.7,2452,Sí
+551,Alejandro Rodríguez,36,F,Santiago,Administración,15.2,2.3,3623,Sí
+552,Lucía Ramírez,34,F,Santiago,Administración,11.53,0.9,3698,Sí
+553,Santiago Ortega,26,M,Ciudad de México,Psicología,16.22,3.6,3566,Sí
+554,Mateo Flores,37,M,Bogotá,Medicina,15.24,5.4,824,Sí
+555,Mateo López,25,F,Quito,Economía,12.08,3.9,2783,Sí
+556,Santiago Ramírez,33,M,Bogotá,Ingeniería,6.73,4.6,2821,No
+557,Martina Rodríguez,35,M,Ciudad de México,Administración,12.83,1.0,2821,Sí
+558,Diego Pérez,39,M,Bogotá,Administración,11.75,1.3,3610,Sí
+559,Martina Pérez,36,F,Lima,Ingeniería,14.86,3.2,3560,Sí
+560,Lucía González,23,M,Santiago,Psicología,18.29,0.0,2143,Sí
+561,Camila González,29,M,Buenos Aires,Ingeniería,10.14,0.3,2832,No
+562,Camila Ramírez,28,M,Bogotá,Economía,16.18,3.8,3641,Sí
+563,Tomás González,28,F,Santiago,Economía,11.97,1.9,3189,Sí
+564,Isabella Pérez,20,F,Montevideo,Administración,12.76,0.7,3017,Sí
+565,Lucía Fernández,34,F,Medellín,Economía,13.4,4.4,2788,Sí
+566,Martina Romero,33,M,Medellín,Ingeniería,12.56,0.2,2326,Sí
+567,Isabella González,18,F,Bogotá,Ingeniería,12.83,2.4,2614,Sí
+568,Mateo Pérez,20,F,Ciudad de México,Psicología,7.95,3.5,4339,No
+569,Mateo Ortega,36,F,Buenos Aires,Arquitectura,12.95,4.9,3248,Sí
+570,Martina López,25,F,Buenos Aires,Psicología,13.78,3.3,3615,Sí
+571,Martina Ortega,18,F,Bogotá,Ingeniería,19.08,3.1,4607,Sí
+572,Santiago Flores,19,F,Lima,Derecho,15.92,2.3,1737,Sí
+573,Diego Sánchez,23,M,Lima,Derecho,13.94,1.1,2805,Sí
+574,Alejandro Fernández,26,M,Quito,Derecho,9.46,0.7,4315,No
+575,Mateo Flores,30,F,Medellín,Economía,15.6,3.2,2998,Sí
+576,Tomás Pérez,26,F,Montevideo,Administración,13.03,2.5,3592,Sí
+577,Camila Ortega,32,M,Buenos Aires,Economía,11.56,3.9,2547,Sí
+578,Valentina Rodríguez,18,M,Montevideo,Psicología,20.0,5.4,3652,Sí
+579,Isabella Flores,19,F,Quito,Derecho,13.55,3.5,1750,Sí
+580,Diego Pérez,36,F,Ciudad de México,Derecho,12.67,1.1,2942,Sí
+581,Diego Rodríguez,20,M,Ciudad de México,Psicología,13.84,0.2,1152,Sí
+582,Santiago Pérez,23,F,Lima,Medicina,14.1,2.1,2675,Sí
+583,Santiago Romero,34,F,Quito,Economía,13.88,4.5,3266,Sí
+584,Santiago Pérez,30,F,Santiago,Administración,11.25,1.2,4572,Sí
+585,Santiago Romero,26,M,Buenos Aires,Medicina,13.52,4.3,5757,Sí
+586,Mateo Ramírez,26,F,Medellín,Arquitectura,13.56,5.1,4042,Sí
+587,Mateo Sánchez,25,M,Buenos Aires,Arquitectura,14.2,5.9,2511,Sí
+588,Camila Ramírez,30,M,Buenos Aires,Arquitectura,13.18,5.7,4455,Sí
+589,Camila Sánchez,32,M,Quito,Arquitectura,8.33,3.4,3085,No
+590,Valentina Romero,18,F,Quito,Ingeniería,13.94,1.0,2196,Sí
+591,Tomás Rodríguez,20,F,Santiago,Psicología,16.24,5.4,2323,Sí
+592,Valentina Ortega,32,M,Montevideo,Psicología,12.57,5.1,2566,Sí
+593,Camila Sánchez,23,F,Ciudad de México,Ingeniería,14.31,2.6,2268,Sí
+594,Camila Ramírez,25,M,Lima,Psicología,17.64,0.4,2122,Sí
+595,Isabella Sánchez,29,F,Medellín,Economía,11.49,1.4,4211,Sí
+596,Valentina Romero,29,M,Ciudad de México,Ingeniería,17.18,1.4,3766,Sí
+597,Santiago Ortega,36,F,Medellín,Medicina,14.44,0.8,4214,Sí
+598,Alejandro Fernández,36,M,Quito,Derecho,14.51,2.7,2113,Sí
+599,Valentina López,28,M,Quito,Ingeniería,18.94,3.3,3699,Sí
+600,Valentina Ramírez,20,F,Lima,Administración,17.9,1.2,2891,Sí
+601,Lucía Rodríguez,35,M,Santiago,Medicina,14.3,5.3,2529,Sí
+602,Camila Romero,22,M,Buenos Aires,Arquitectura,16.4,3.1,3057,Sí
+603,Santiago Pérez,22,F,Bogotá,Ingeniería,13.7,2.4,2095,Sí
+604,Mateo Flores,25,M,Santiago,Arquitectura,11.0,1.4,3992,Sí
+605,Diego Sánchez,23,M,Ciudad de México,Ingeniería,17.43,2.0,2444,Sí
+606,Martina Pérez,33,M,Ciudad de México,Arquitectura,15.39,3.5,2684,Sí
+607,Martina López,20,M,Ciudad de México,Derecho,15.14,4.2,2479,Sí
+608,Camila Ramírez,38,M,Quito,Psicología,16.42,2.4,3352,Sí
+609,Tomás Pérez,31,F,Montevideo,Administración,9.24,3.2,1802,No
+610,Tomás González,39,M,Santiago,Ingeniería,17.73,0.6,1937,Sí
+611,Diego González,27,F,Lima,Economía,13.3,2.3,3134,Sí
+612,Alejandro Rodríguez,23,M,Lima,Economía,16.5,1.6,3367,Sí
+613,Camila Pérez,19,F,Quito,Arquitectura,12.03,1.4,2952,Sí
+614,Lucía Flores,24,M,Buenos Aires,Ingeniería,14.44,5.7,2925,Sí
+615,Valentina Ortega,21,M,Lima,Ingeniería,12.03,5.5,3060,Sí
+616,Santiago Rodríguez,27,M,Ciudad de México,Medicina,11.12,2.8,3252,Sí
+617,Martina Ortega,38,F,Montevideo,Arquitectura,13.22,5.1,3142,Sí
+618,Valentina González,35,M,Buenos Aires,Economía,17.37,0.9,2532,Sí
+619,Alejandro Romero,32,M,Ciudad de México,Administración,15.21,0.8,3351,Sí
+620,Camila López,26,F,Buenos Aires,Ingeniería,13.37,4.8,3471,Sí
+621,Camila Fernández,18,M,Bogotá,Derecho,14.48,5.0,3481,Sí
+622,Tomás Ortega,20,F,Bogotá,Administración,11.13,2.9,2508,Sí
+623,Santiago Sánchez,32,F,Buenos Aires,Derecho,9.4,4.5,2376,No
+624,Lucía Sánchez,33,M,Quito,Arquitectura,15.15,4.1,1928,Sí
+625,Mateo Ramírez,38,M,Montevideo,Economía,13.7,1.0,4265,Sí
+626,Valentina Romero,39,F,Santiago,Arquitectura,15.31,1.1,2462,Sí
+627,Diego Rodríguez,25,M,Ciudad de México,Medicina,14.31,3.0,1806,Sí
+628,Isabella González,35,M,Bogotá,Economía,8.61,0.4,3835,No
+629,Alejandro González,21,F,Buenos Aires,Derecho,15.82,1.4,2810,Sí
+630,Tomás Rodríguez,19,F,Ciudad de México,Derecho,12.5,1.6,2742,Sí
+631,Diego Flores,18,F,Bogotá,Economía,11.0,4.8,1933,Sí
+632,Mateo Fernández,21,F,Bogotá,Economía,15.93,0.5,2579,Sí
+633,Isabella González,18,M,Montevideo,Arquitectura,14.1,1.6,4397,Sí
+634,Tomás Pérez,26,M,Bogotá,Ingeniería,17.23,5.4,2373,Sí
+635,Tomás Fernández,28,M,Lima,Arquitectura,12.04,3.0,3103,Sí
+636,Martina Romero,19,F,Montevideo,Arquitectura,14.85,1.4,3418,Sí
+637,Camila Flores,32,M,Bogotá,Administración,9.19,2.4,5217,No
+638,Lucía Fernández,19,M,Montevideo,Medicina,14.13,3.4,2374,Sí
+639,Mateo Rodríguez,22,M,Medellín,Administración,15.31,5.5,3818,Sí
+640,Diego Pérez,23,F,Ciudad de México,Derecho,12.5,1.2,1486,Sí
+641,Valentina González,20,M,Medellín,Economía,11.1,3.6,2188,Sí
+642,Tomás López,22,F,Lima,Medicina,12.79,1.7,3789,Sí
+643,Mateo Fernández,19,M,Quito,Psicología,11.89,4.3,1544,Sí
+644,Diego Ramírez,31,F,Lima,Ingeniería,16.67,3.4,2765,Sí
+645,Camila Ortega,37,M,Ciudad de México,Psicología,13.52,4.6,2690,Sí
+646,Alejandro López,33,F,Santiago,Economía,14.05,0.3,2306,Sí
+647,Martina Romero,36,F,Bogotá,Arquitectura,15.04,2.3,1201,Sí
+648,Lucía Ortega,37,M,Bogotá,Arquitectura,10.41,4.1,1908,No
+649,Santiago González,27,F,Medellín,Arquitectura,18.28,4.3,1960,Sí
+650,Lucía Pérez,32,F,Ciudad de México,Economía,11.0,0.3,2074,Sí
+651,Valentina Sánchez,24,F,Lima,Medicina,15.21,0.5,2958,Sí
+652,Diego Pérez,18,F,Montevideo,Derecho,9.95,0.5,3154,No
+653,Isabella Pérez,32,F,Buenos Aires,Derecho,10.64,2.5,3188,No
+654,Diego López,36,M,Bogotá,Psicología,12.85,4.4,5084,Sí
+655,Martina Flores,26,F,Lima,Administración,12.09,4.3,1408,Sí
+656,Alejandro González,24,F,Ciudad de México,Psicología,18.82,4.3,3150,Sí
+657,Isabella Ramírez,32,M,Lima,Ingeniería,9.57,3.9,3762,No
+658,Lucía Flores,26,M,Medellín,Arquitectura,11.48,3.6,3401,Sí
+659,Tomás Ramírez,30,M,Ciudad de México,Derecho,13.24,5.6,2549,Sí
+660,Diego Fernández,37,M,Quito,Administración,13.89,0.3,1941,Sí
+661,Camila Ortega,23,F,Santiago,Psicología,18.47,6.0,3844,Sí
+662,Isabella Fernández,32,M,Santiago,Administración,14.87,5.7,2521,Sí
+663,Isabella Fernández,26,F,Bogotá,Ingeniería,14.67,3.2,944,Sí
+664,Tomás Ramírez,32,F,Lima,Psicología,11.94,0.3,3034,Sí
+665,Alejandro Rodríguez,30,F,Quito,Ingeniería,14.31,5.6,2555,Sí
+666,Martina Fernández,23,F,Medellín,Medicina,9.67,5.1,3043,No
+667,Mateo Pérez,20,M,Quito,Psicología,16.08,4.2,3500,Sí
+668,Diego Rodríguez,30,F,Bogotá,Arquitectura,12.51,3.2,3107,Sí
+669,Lucía Flores,39,F,Ciudad de México,Ingeniería,14.42,4.6,4885,Sí
+670,Martina Ortega,22,M,Santiago,Medicina,13.7,4.7,3136,Sí
+671,Diego Fernández,18,F,Medellín,Ingeniería,14.87,0.7,3313,Sí
+672,Diego Fernández,38,F,Bogotá,Administración,15.76,4.7,3293,Sí
+673,Tomás Sánchez,23,M,Lima,Ingeniería,18.64,5.1,1934,Sí
+674,Isabella López,19,F,Bogotá,Derecho,12.0,0.7,3746,Sí
+675,Tomás Sánchez,33,F,Montevideo,Psicología,12.31,3.1,3272,Sí
+676,Lucía Pérez,34,M,Buenos Aires,Psicología,9.39,5.3,3226,No
+677,Camila González,27,F,Buenos Aires,Medicina,11.88,5.7,3550,Sí
+678,Martina Ortega,27,F,Lima,Derecho,13.02,5.5,1165,Sí
+679,Santiago Ramírez,33,F,Montevideo,Ingeniería,10.59,5.7,3733,No
+680,Alejandro González,21,F,Montevideo,Economía,8.58,4.9,4087,No
+681,Santiago Ortega,21,F,Bogotá,Administración,13.41,4.4,3356,Sí
+682,Lucía Sánchez,35,M,Ciudad de México,Ingeniería,13.46,3.3,3210,Sí
+683,Camila Fernández,18,M,Lima,Arquitectura,16.98,2.8,3106,Sí
+684,Camila Ramírez,31,M,Santiago,Arquitectura,18.43,4.3,1530,Sí
+685,Tomás González,39,F,Santiago,Derecho,13.26,1.7,4046,Sí
+686,Mateo González,29,M,Lima,Economía,15.17,3.2,2030,Sí
+687,Isabella Fernández,27,F,Bogotá,Arquitectura,15.75,3.8,2947,Sí
+688,Camila López,29,M,Medellín,Economía,14.11,5.9,2291,Sí
+689,Alejandro Romero,18,M,Medellín,Arquitectura,14.56,0.9,4333,Sí
+690,Martina Flores,27,F,Montevideo,Ingeniería,13.13,5.0,2335,Sí
+691,Valentina Flores,36,F,Montevideo,Ingeniería,18.47,2.6,4169,Sí
+692,Isabella Romero,27,M,Ciudad de México,Arquitectura,17.39,2.5,2779,Sí
+693,Alejandro Ramírez,28,M,Medellín,Arquitectura,17.79,4.9,1688,Sí
+694,Alejandro Romero,27,F,Ciudad de México,Administración,15.25,0.8,2739,Sí
+695,Isabella Pérez,33,F,Ciudad de México,Ingeniería,10.4,1.9,3845,No
+696,Mateo Rodríguez,39,M,Medellín,Medicina,11.46,4.2,2500,Sí
+697,Martina González,20,F,Montevideo,Economía,10.52,4.4,968,No
+698,Diego Ramírez,20,M,Quito,Psicología,13.7,0.1,2534,Sí
+699,Mateo López,26,M,Lima,Ingeniería,12.92,0.2,2141,Sí
+700,Diego Flores,39,F,Montevideo,Economía,16.07,2.3,3432,Sí
+701,Valentina Pérez,24,M,Medellín,Economía,10.82,1.5,3585,No
+702,Alejandro Rodríguez,25,F,Lima,Derecho,13.24,3.4,2261,Sí
+703,Tomás González,37,M,Bogotá,Psicología,14.31,3.7,3203,Sí
+704,Isabella González,27,F,Bogotá,Arquitectura,12.05,1.0,4189,Sí
+705,Valentina González,21,M,Montevideo,Administración,15.97,1.7,1786,Sí
+706,Martina Pérez,24,F,Lima,Medicina,18.1,3.8,2114,Sí
+707,Isabella López,38,F,Santiago,Arquitectura,14.51,0.0,3856,Sí
+708,Diego Sánchez,36,M,Santiago,Medicina,20.0,1.2,3617,Sí
+709,Valentina Flores,18,F,Medellín,Arquitectura,16.67,5.5,5146,Sí
+710,Isabella Flores,32,M,Buenos Aires,Administración,19.06,6.0,3786,Sí
+711,Isabella Sánchez,22,F,Santiago,Arquitectura,17.97,2.2,2776,Sí
+712,Valentina Rodríguez,23,F,Quito,Arquitectura,16.83,3.8,4911,Sí
+713,Alejandro Rodríguez,33,F,Quito,Ingeniería,15.39,4.2,2718,Sí
+714,Lucía Flores,18,M,Medellín,Arquitectura,17.14,4.0,3235,Sí
+715,Lucía Ramírez,20,M,Santiago,Administración,12.78,5.2,3984,Sí
+716,Camila Rodríguez,25,F,Medellín,Arquitectura,13.18,2.4,3305,Sí
+717,Santiago Pérez,37,M,Montevideo,Derecho,12.34,4.6,2072,Sí
+718,Tomás Flores,25,F,Bogotá,Ingeniería,14.22,1.1,2171,Sí
+719,Santiago Sánchez,31,M,Medellín,Economía,13.24,5.2,2831,Sí
+720,Lucía González,35,M,Medellín,Ingeniería,15.07,4.1,2534,Sí
+721,Valentina López,31,F,Quito,Psicología,12.75,2.5,852,Sí
+722,Camila Romero,28,M,Montevideo,Medicina,11.68,3.0,3803,Sí
+723,Alejandro Romero,36,F,Buenos Aires,Arquitectura,11.07,0.2,2458,Sí
+724,Lucía López,27,M,Buenos Aires,Administración,11.83,1.3,3558,Sí
+725,Mateo Ortega,22,M,Montevideo,Economía,15.91,4.1,4276,Sí
+726,Lucía Ramírez,18,M,Quito,Ingeniería,14.52,0.1,5429,Sí
+727,Alejandro Flores,30,F,Montevideo,Ingeniería,11.83,3.5,4442,Sí
+728,Isabella Sánchez,35,M,Quito,Administración,14.43,3.4,4007,Sí
+729,Santiago Rodríguez,38,M,Medellín,Economía,11.59,2.0,3285,Sí
+730,Camila Rodríguez,27,M,Santiago,Psicología,11.58,3.1,3250,Sí
+731,Santiago Ramírez,22,F,Ciudad de México,Derecho,14.28,5.4,2516,Sí
+732,Santiago Ortega,24,F,Medellín,Ingeniería,20.0,2.3,2330,Sí
+733,Alejandro Rodríguez,35,F,Quito,Derecho,13.89,3.1,2946,Sí
+734,Santiago Fernández,24,M,Quito,Administración,9.79,5.0,2080,No
+735,Valentina Ortega,20,M,Buenos Aires,Economía,14.44,5.1,3432,Sí
+736,Martina Pérez,21,F,Medellín,Medicina,12.17,6.0,3860,Sí
+737,Camila López,20,F,Quito,Arquitectura,13.63,0.1,2310,Sí
+738,Diego Ortega,28,M,Ciudad de México,Administración,13.24,3.0,3214,Sí
+739,Alejandro Rodríguez,32,M,Bogotá,Psicología,17.65,1.2,2382,Sí
+740,Lucía López,31,F,Bogotá,Arquitectura,14.19,4.1,3709,Sí
+741,Tomás Sánchez,30,F,Santiago,Administración,15.92,2.5,3346,Sí
+742,Camila Sánchez,26,M,Bogotá,Psicología,15.08,1.2,3695,Sí
+743,Isabella Pérez,31,M,Bogotá,Psicología,15.76,3.1,1033,Sí
+744,Mateo Pérez,21,M,Quito,Medicina,13.03,4.3,1456,Sí
+745,Mateo Sánchez,27,F,Lima,Arquitectura,13.33,5.6,2119,Sí
+746,Martina Romero,26,M,Ciudad de México,Ingeniería,11.44,3.9,3444,Sí
+747,Valentina Flores,24,F,Ciudad de México,Psicología,16.02,6.0,4341,Sí
+748,Tomás Romero,19,F,Buenos Aires,Economía,12.37,3.6,2131,Sí
+749,Alejandro López,34,M,Montevideo,Psicología,16.5,3.8,2469,Sí
+750,Isabella Fernández,35,M,Buenos Aires,Administración,12.95,5.1,1508,Sí
+751,Isabella Romero,24,F,Medellín,Ingeniería,16.33,0.4,2747,Sí
+752,Diego Flores,33,F,Medellín,Psicología,14.63,5.9,3968,Sí
+753,Diego Romero,21,M,Ciudad de México,Administración,15.64,2.4,2891,Sí
+754,Santiago González,27,M,Ciudad de México,Derecho,14.21,4.0,7058,Sí
+755,Tomás Fernández,23,M,Buenos Aires,Economía,12.65,2.9,3009,Sí
+756,Mateo Fernández,28,F,Ciudad de México,Ingeniería,12.05,3.6,1656,Sí
+757,Martina González,20,M,Santiago,Medicina,15.03,1.0,1983,Sí
+758,Valentina López,39,M,Quito,Arquitectura,17.06,2.4,2737,Sí
+759,Diego Sánchez,19,M,Bogotá,Psicología,14.85,5.5,2390,Sí
+760,Mateo Rodríguez,30,M,Quito,Administración,16.3,3.6,1562,Sí
+761,Alejandro Rodríguez,34,F,Buenos Aires,Arquitectura,17.54,1.5,2894,Sí
+762,Diego Rodríguez,32,F,Montevideo,Administración,12.31,0.9,3629,Sí
+763,Isabella Ortega,20,M,Montevideo,Medicina,14.71,4.2,2415,Sí
+764,Santiago Sánchez,29,M,Montevideo,Economía,12.3,1.3,4685,Sí
+765,Tomás López,27,F,Medellín,Ingeniería,15.99,2.1,1554,Sí
+766,Diego Pérez,25,F,Santiago,Ingeniería,15.55,5.9,2403,Sí
+767,Valentina Fernández,39,M,Santiago,Administración,11.46,1.1,2643,Sí
+768,Valentina Rodríguez,26,M,Buenos Aires,Economía,14.72,1.8,1877,Sí
+769,Alejandro Ortega,34,F,Medellín,Medicina,15.32,0.3,3786,Sí
+770,Mateo Romero,28,M,Lima,Arquitectura,8.25,0.2,1237,No
+771,Camila Fernández,36,M,Medellín,Economía,14.18,1.5,4476,Sí
+772,Lucía Fernández,36,M,Montevideo,Economía,15.2,1.8,4530,Sí
+773,Valentina López,31,M,Bogotá,Medicina,15.61,5.5,3872,Sí
+774,Alejandro Flores,28,F,Bogotá,Medicina,14.89,2.2,4430,Sí
+775,Camila Flores,24,F,Quito,Ingeniería,12.85,1.0,3260,Sí
+776,Martina Rodríguez,22,M,Bogotá,Arquitectura,11.63,2.2,2870,Sí
+777,Valentina Fernández,19,M,Bogotá,Arquitectura,14.26,4.1,2338,Sí
+778,Martina Sánchez,19,M,Buenos Aires,Administración,13.7,5.6,2464,Sí
+779,Camila López,32,F,Ciudad de México,Ingeniería,11.66,5.5,3669,Sí
+780,Alejandro Ramírez,18,F,Lima,Derecho,16.66,3.2,3763,Sí
+781,Camila Flores,18,M,Bogotá,Derecho,11.86,4.2,2409,Sí
+782,Santiago Sánchez,20,M,Quito,Psicología,16.75,2.0,1809,Sí
+783,Santiago Rodríguez,28,M,Lima,Economía,16.82,1.6,4157,Sí
+784,Tomás Ortega,38,F,Ciudad de México,Economía,10.07,3.9,2144,No
+785,Santiago Pérez,31,M,Quito,Administración,12.65,3.3,2984,Sí
+786,Valentina Ortega,29,F,Quito,Economía,13.3,1.0,3551,Sí
+787,Diego Pérez,20,F,Quito,Economía,11.78,5.2,4180,Sí
+788,Camila Romero,28,M,Bogotá,Economía,17.45,1.4,2191,Sí
+789,Lucía Ortega,33,F,Bogotá,Arquitectura,13.38,3.9,2814,Sí
+790,Martina Sánchez,26,F,Montevideo,Economía,16.4,4.8,2509,Sí
+791,Lucía Sánchez,31,M,Ciudad de México,Ingeniería,12.17,1.8,2337,Sí
+792,Tomás Romero,38,F,Montevideo,Derecho,7.37,4.8,3588,No
+793,Santiago López,29,M,Buenos Aires,Psicología,14.04,1.0,3056,Sí
+794,Isabella Flores,25,M,Ciudad de México,Arquitectura,14.74,5.8,2929,Sí
+795,Isabella Pérez,32,M,Santiago,Administración,13.83,1.3,4410,Sí
+796,Mateo López,27,F,Lima,Arquitectura,11.71,2.2,988,Sí
+797,Camila Fernández,34,M,Buenos Aires,Psicología,15.07,5.9,2724,Sí
+798,Diego Fernández,27,M,Buenos Aires,Economía,8.98,1.7,4754,No
+799,Tomás Flores,35,M,Medellín,Medicina,11.12,2.0,1365,Sí
+800,Martina Romero,39,F,Buenos Aires,Ingeniería,10.93,3.6,4771,No
+801,Lucía Pérez,20,F,Montevideo,Administración,14.01,0.3,3343,Sí
+802,Santiago López,39,F,Bogotá,Economía,16.38,2.1,2659,Sí
+803,Alejandro Flores,39,M,Ciudad de México,Medicina,13.89,2.6,1151,Sí
+804,Lucía Ortega,26,F,Ciudad de México,Ingeniería,13.83,4.1,4465,Sí
+805,Alejandro Pérez,37,F,Ciudad de México,Arquitectura,12.31,1.2,3049,Sí
+806,Martina Romero,28,F,Medellín,Administración,18.02,1.2,3195,Sí
+807,Alejandro González,18,M,Medellín,Economía,15.01,3.7,2846,Sí
+808,Camila Ortega,27,M,Bogotá,Ingeniería,11.62,0.7,3610,Sí
+809,Diego Ramírez,25,M,Santiago,Administración,8.97,0.1,2317,No
+810,Camila López,33,F,Bogotá,Economía,13.32,4.2,3188,Sí
+811,Alejandro Fernández,25,M,Santiago,Ingeniería,16.19,4.1,2410,Sí
+812,Tomás Ramírez,20,F,Santiago,Ingeniería,12.21,3.6,2892,Sí
+813,Diego Ramírez,35,M,Quito,Medicina,18.01,1.1,3844,Sí
+814,Camila Fernández,38,F,Quito,Arquitectura,14.76,4.4,3572,Sí
+815,Camila López,24,M,Bogotá,Ingeniería,9.92,2.6,2046,No
+816,Alejandro Ramírez,39,M,Quito,Derecho,15.74,5.5,4085,Sí
+817,Santiago Ortega,27,M,Montevideo,Arquitectura,9.71,5.5,2867,No
+818,Valentina López,20,M,Santiago,Administración,15.83,1.9,2821,Sí
+819,Isabella Ortega,20,M,Bogotá,Economía,12.87,4.3,2619,Sí
+820,Diego González,28,M,Quito,Derecho,18.25,3.0,2139,Sí
+821,Isabella Pérez,18,F,Montevideo,Medicina,14.77,2.7,3564,Sí
+822,Mateo López,35,F,Ciudad de México,Psicología,18.73,2.2,2254,Sí
+823,Camila Sánchez,27,M,Montevideo,Arquitectura,14.13,5.5,2497,Sí
+824,Mateo López,35,F,Ciudad de México,Administración,12.48,2.5,1974,Sí
+825,Lucía González,38,M,Santiago,Administración,11.63,5.4,2829,Sí
+826,Mateo López,34,M,Quito,Psicología,15.82,3.3,1864,Sí
+827,Camila Pérez,36,F,Quito,Administración,13.02,0.7,3145,Sí
+828,Isabella González,18,F,Montevideo,Medicina,14.76,1.2,1918,Sí
+829,Tomás Sánchez,26,M,Lima,Arquitectura,14.03,2.5,4186,Sí
+830,Alejandro Sánchez,38,M,Medellín,Economía,13.35,1.6,4161,Sí
+831,Alejandro Pérez,24,F,Buenos Aires,Psicología,17.96,1.4,3186,Sí
+832,Diego López,36,F,Santiago,Ingeniería,10.04,3.7,3846,No
+833,Martina Rodríguez,39,M,Bogotá,Economía,12.85,4.2,4703,Sí
+834,Mateo Fernández,39,M,Bogotá,Economía,13.18,1.0,4052,Sí
+835,Valentina Rodríguez,26,M,Ciudad de México,Arquitectura,13.23,5.5,3063,Sí
+836,Isabella Pérez,21,F,Lima,Derecho,14.3,4.7,1593,Sí
+837,Alejandro López,26,M,Santiago,Economía,13.0,6.0,1770,Sí
+838,Mateo Ortega,18,M,Buenos Aires,Psicología,8.16,2.0,2231,No
+839,Martina Rodríguez,18,F,Lima,Ingeniería,19.22,4.2,3045,Sí
+840,Alejandro Romero,23,M,Bogotá,Psicología,16.54,4.7,1544,Sí
+841,Tomás Flores,19,F,Ciudad de México,Derecho,11.42,3.6,3353,Sí
+842,Santiago Rodríguez,18,F,Buenos Aires,Derecho,11.23,1.8,3977,Sí
+843,Alejandro Ortega,37,F,Santiago,Psicología,8.49,4.6,3175,No
+844,Mateo Fernández,28,M,Ciudad de México,Medicina,15.22,5.1,3972,Sí
+845,Mateo Pérez,20,M,Ciudad de México,Ingeniería,17.92,4.7,1248,Sí
+846,Mateo Rodríguez,37,F,Buenos Aires,Arquitectura,17.65,3.3,2093,Sí
+847,Valentina Sánchez,39,M,Bogotá,Psicología,12.87,2.3,3754,Sí
+848,Diego Romero,22,F,Montevideo,Administración,19.12,4.5,3954,Sí
+849,Camila Pérez,35,M,Ciudad de México,Ingeniería,17.37,5.3,3891,Sí
+850,Martina Flores,36,F,Ciudad de México,Administración,13.92,0.1,4377,Sí
+851,Diego Ramírez,21,M,Ciudad de México,Derecho,14.73,4.3,4060,Sí
+852,Isabella González,36,M,Montevideo,Ingeniería,6.63,2.8,4323,No
+853,Camila Pérez,19,F,Lima,Administración,15.52,5.7,1255,Sí
+854,Martina Flores,31,F,Montevideo,Arquitectura,12.4,0.1,2369,Sí
+855,Mateo Flores,24,F,Medellín,Medicina,12.33,4.0,4249,Sí
+856,Tomás Fernández,34,F,Montevideo,Administración,15.85,2.6,2839,Sí
+857,Valentina Ramírez,37,F,Buenos Aires,Economía,13.88,1.5,4450,Sí
+858,Diego Ramírez,18,F,Montevideo,Administración,13.84,0.5,3957,Sí
+859,Diego López,28,F,Bogotá,Economía,10.73,5.0,2270,No
+860,Alejandro Romero,23,F,Ciudad de México,Administración,11.28,5.0,2195,Sí
+861,Tomás Rodríguez,35,F,Quito,Psicología,17.73,1.7,3376,Sí
+862,Diego Pérez,22,F,Ciudad de México,Arquitectura,13.28,0.9,2923,Sí
+863,Alejandro Fernández,19,M,Bogotá,Derecho,11.33,1.4,3800,Sí
+864,Martina Rodríguez,31,F,Medellín,Psicología,16.89,1.2,2991,Sí
+865,Lucía Romero,30,M,Montevideo,Arquitectura,15.69,3.9,2509,Sí
+866,Tomás Fernández,27,M,Medellín,Ingeniería,12.91,5.7,2416,Sí
+867,Valentina López,37,M,Montevideo,Medicina,16.57,1.4,2219,Sí
+868,Valentina Fernández,31,F,Santiago,Administración,11.97,2.7,978,Sí
+869,Camila González,27,M,Buenos Aires,Derecho,11.67,2.5,2646,Sí
+870,Alejandro Sánchez,27,M,Medellín,Derecho,14.64,3.5,3409,Sí
+871,Lucía López,37,M,Ciudad de México,Derecho,17.56,4.0,2754,Sí
+872,Martina Ortega,34,M,Buenos Aires,Arquitectura,8.14,5.3,2726,No
+873,Isabella López,19,F,Quito,Arquitectura,14.02,1.5,3041,Sí
+874,Alejandro Ramírez,28,F,Bogotá,Ingeniería,13.56,4.9,3595,Sí
+875,Isabella Romero,35,M,Montevideo,Medicina,18.91,1.1,2231,Sí
+876,Lucía López,29,M,Lima,Psicología,11.2,1.5,3994,Sí
+877,Diego López,32,F,Montevideo,Medicina,12.49,0.4,2679,Sí
+878,Valentina Sánchez,36,M,Buenos Aires,Arquitectura,12.3,5.2,1495,Sí
+879,Isabella Romero,37,F,Lima,Derecho,14.23,5.9,1992,Sí
+880,Isabella González,31,M,Ciudad de México,Economía,17.55,4.5,3524,Sí
+881,Alejandro Ramírez,32,M,Bogotá,Administración,9.58,1.5,3469,No
+882,Santiago Pérez,33,M,Lima,Economía,13.28,1.0,1973,Sí
+883,Diego Ortega,18,F,Quito,Arquitectura,9.31,1.4,3393,No
+884,Mateo Ramírez,29,M,Quito,Medicina,15.83,5.8,3062,Sí
+885,Camila Rodríguez,27,M,Bogotá,Ingeniería,12.18,3.0,3849,Sí
+886,Santiago Ramírez,31,F,Quito,Arquitectura,12.17,1.4,3030,Sí
+887,Isabella Ortega,24,M,Medellín,Arquitectura,19.27,2.4,2944,Sí
+888,Alejandro Romero,34,F,Montevideo,Medicina,16.68,5.6,1955,Sí
+889,Santiago Romero,28,M,Buenos Aires,Ingeniería,16.44,4.6,715,Sí
+890,Diego Rodríguez,21,F,Lima,Medicina,11.89,3.5,3587,Sí
+891,Mateo Ramírez,22,M,Ciudad de México,Economía,15.44,2.1,2234,Sí
+892,Lucía González,34,M,Bogotá,Administración,13.48,5.5,1644,Sí
+893,Tomás Flores,34,F,Buenos Aires,Psicología,8.57,0.4,3774,No
+894,Isabella Pérez,34,F,Bogotá,Economía,13.45,4.2,5188,Sí
+895,Mateo López,31,M,Medellín,Economía,16.77,5.5,2515,Sí
+896,Tomás Fernández,27,M,Lima,Administración,10.94,0.6,3735,No
+897,Diego Ramírez,27,F,Lima,Derecho,15.11,2.6,2742,Sí
+898,Diego López,22,M,Santiago,Arquitectura,16.71,2.8,2980,Sí
+899,Diego Rodríguez,34,M,Santiago,Ingeniería,15.34,5.2,5030,Sí
+900,Camila Pérez,35,F,Bogotá,Ingeniería,14.81,1.5,2125,Sí
+901,Camila Flores,25,M,Bogotá,Administración,12.37,1.4,3623,Sí
+902,Martina Sánchez,36,M,Ciudad de México,Derecho,12.46,2.8,4498,Sí
+903,Mateo Flores,27,F,Ciudad de México,Psicología,15.18,2.5,1816,Sí
+904,Alejandro Ortega,19,F,Lima,Derecho,16.21,5.9,3243,Sí
+905,Diego Sánchez,21,F,Buenos Aires,Arquitectura,6.7,3.9,3814,No
+906,Lucía González,24,F,Bogotá,Psicología,16.29,0.2,3629,Sí
+907,Tomás Ortega,22,F,Lima,Administración,12.88,2.0,3723,Sí
+908,Lucía Pérez,21,M,Montevideo,Derecho,13.07,5.8,1225,Sí
+909,Isabella Ramírez,21,M,Santiago,Medicina,12.33,2.9,4051,Sí
+910,Isabella López,20,M,Medellín,Derecho,16.41,1.4,4835,Sí
+911,Santiago Rodríguez,37,M,Medellín,Medicina,11.6,5.0,4506,Sí
+912,Alejandro González,26,F,Buenos Aires,Economía,9.47,2.9,5042,No
+913,Valentina Ortega,20,M,Montevideo,Arquitectura,13.33,3.9,3381,Sí
+914,Tomás Ramírez,35,F,Ciudad de México,Administración,15.11,5.6,3350,Sí
+915,Alejandro Rodríguez,25,M,Medellín,Administración,16.65,4.1,1834,Sí
+916,Lucía López,23,F,Medellín,Economía,13.62,3.3,3852,Sí
+917,Tomás Romero,34,M,Montevideo,Derecho,10.55,2.7,3085,No
+918,Isabella Rodríguez,20,M,Buenos Aires,Ingeniería,13.02,1.1,3410,Sí
+919,Alejandro Fernández,37,F,Medellín,Ingeniería,17.9,3.0,4510,Sí
+920,Santiago López,28,M,Lima,Psicología,14.01,3.8,4836,Sí
+921,Santiago Romero,35,M,Bogotá,Administración,15.84,4.0,3636,Sí
+922,Isabella Fernández,23,F,Santiago,Psicología,12.0,4.8,2208,Sí
+923,Santiago Ramírez,30,F,Lima,Medicina,13.36,4.6,1437,Sí
+924,Mateo López,18,M,Bogotá,Arquitectura,17.07,4.6,2916,Sí
+925,Santiago Flores,20,M,Quito,Derecho,12.03,1.9,2679,Sí
+926,Martina Ortega,32,M,Buenos Aires,Ingeniería,14.21,3.1,4386,Sí
+927,Isabella Romero,25,F,Bogotá,Derecho,13.84,5.7,1869,Sí
+928,Valentina López,22,F,Quito,Arquitectura,11.09,0.8,3117,Sí
+929,Diego Rodríguez,25,M,Lima,Economía,10.48,2.5,2714,No
+930,Isabella Rodríguez,28,F,Medellín,Psicología,14.32,3.0,4166,Sí
+931,Santiago Romero,24,M,Bogotá,Medicina,11.59,1.1,3319,Sí
+932,Isabella Fernández,32,M,Santiago,Derecho,15.88,3.9,2822,Sí
+933,Diego Ortega,21,F,Ciudad de México,Administración,17.01,4.5,2877,Sí
+934,Tomás Sánchez,25,M,Santiago,Derecho,14.68,0.1,3306,Sí
+935,Mateo Pérez,20,F,Ciudad de México,Derecho,10.87,0.9,3533,No
+936,Valentina Flores,37,F,Ciudad de México,Ingeniería,14.26,5.8,1910,Sí
+937,Martina González,39,F,Bogotá,Economía,10.65,2.6,3971,No
+938,Alejandro González,39,M,Santiago,Economía,17.6,1.4,863,Sí
+939,Santiago Romero,24,F,Quito,Administración,14.39,3.7,2077,Sí
+940,Isabella López,39,M,Lima,Ingeniería,16.11,5.6,1795,Sí
+941,Alejandro Ortega,18,M,Ciudad de México,Ingeniería,12.97,3.7,4608,Sí
+942,Santiago López,38,M,Lima,Administración,13.53,5.8,1406,Sí
+943,Camila Rodríguez,24,M,Medellín,Medicina,15.41,4.5,2789,Sí
+944,Valentina López,19,F,Bogotá,Arquitectura,16.98,1.8,3352,Sí
+945,Camila Sánchez,35,F,Buenos Aires,Ingeniería,13.8,5.3,2602,Sí
+946,Diego López,38,F,Medellín,Administración,10.4,1.8,3497,No
+947,Santiago Ortega,38,M,Ciudad de México,Medicina,14.38,3.5,3633,Sí
+948,Isabella Flores,29,M,Montevideo,Administración,14.39,3.5,3383,Sí
+949,Lucía Ortega,24,M,Medellín,Medicina,12.15,1.2,2753,Sí
+950,Lucía López,27,F,Medellín,Medicina,12.04,2.2,2323,Sí
+951,Camila Pérez,23,F,Santiago,Arquitectura,16.21,3.5,2240,Sí
+952,Santiago López,25,F,Buenos Aires,Economía,11.44,5.4,2620,Sí
+953,Santiago Ortega,25,M,Lima,Psicología,14.94,1.0,3648,Sí
+954,Isabella Fernández,26,F,Quito,Derecho,15.12,3.8,1953,Sí
+955,Isabella López,25,F,Ciudad de México,Economía,11.3,1.4,3059,Sí
+956,Santiago Ortega,39,F,Montevideo,Arquitectura,12.88,1.9,4053,Sí
+957,Santiago Pérez,32,F,Bogotá,Economía,15.29,3.3,685,Sí
+958,Lucía Ramírez,22,M,Ciudad de México,Derecho,9.75,6.0,3535,No
+959,Martina López,22,M,Lima,Economía,14.75,2.2,3112,Sí
+960,Alejandro Fernández,35,M,Ciudad de México,Psicología,16.7,1.3,3928,Sí
+961,Valentina Sánchez,34,F,Santiago,Arquitectura,18.18,5.8,2296,Sí
+962,Tomás Romero,23,M,Medellín,Economía,19.57,0.8,1849,Sí
+963,Lucía Rodríguez,23,M,Medellín,Arquitectura,18.19,3.6,2026,Sí
+964,Alejandro Pérez,34,F,Medellín,Medicina,15.89,2.3,3796,Sí
+965,Tomás Flores,25,F,Montevideo,Arquitectura,13.72,5.4,2691,Sí
+966,Diego González,37,F,Buenos Aires,Medicina,13.06,2.8,3108,Sí
+967,Lucía Sánchez,32,F,Montevideo,Medicina,13.11,3.7,2021,Sí
+968,Santiago Fernández,27,F,Quito,Administración,10.21,1.1,3552,No
+969,Alejandro Rodríguez,38,M,Bogotá,Economía,18.03,1.3,2678,Sí
+970,Diego Romero,33,F,Medellín,Arquitectura,7.37,0.3,3343,No
+971,Valentina Rodríguez,28,M,Montevideo,Economía,16.31,5.1,3191,Sí
+972,Isabella Pérez,24,M,Quito,Administración,11.86,3.4,1310,Sí
+973,Valentina Flores,36,F,Montevideo,Psicología,15.41,5.6,2816,Sí
+974,Valentina Flores,36,M,Bogotá,Economía,15.07,4.3,2081,Sí
+975,Mateo Ortega,19,F,Santiago,Administración,10.67,2.3,4040,No
+976,Santiago Flores,24,F,Buenos Aires,Administración,15.91,2.8,4262,Sí
+977,Valentina Fernández,29,M,Quito,Ingeniería,10.2,0.0,2480,No
+978,Santiago Fernández,29,F,Quito,Arquitectura,11.1,5.5,2015,Sí
+979,Diego Ramírez,23,F,Bogotá,Administración,11.84,1.7,2965,Sí
+980,Alejandro Fernández,38,M,Santiago,Administración,17.41,1.5,2642,Sí
+981,Santiago López,20,M,Medellín,Psicología,13.32,3.1,2098,Sí
+982,Isabella Ramírez,37,M,Quito,Arquitectura,14.41,4.3,4036,Sí
+983,Valentina López,22,F,Lima,Administración,15.83,5.6,4186,Sí
+984,Isabella Pérez,23,M,Montevideo,Medicina,15.05,2.6,1747,Sí
+985,Diego Sánchez,37,F,Ciudad de México,Ingeniería,15.66,0.6,2015,Sí
+986,Lucía Fernández,18,M,Buenos Aires,Medicina,17.05,1.2,2574,Sí
+987,Alejandro Fernández,32,M,Santiago,Economía,7.39,2.0,3482,No
+988,Diego Pérez,38,F,Buenos Aires,Arquitectura,13.31,4.7,3469,Sí
+989,Lucía Rodríguez,35,F,Quito,Medicina,12.92,0.8,2831,Sí
+990,Diego Ortega,18,M,Medellín,Psicología,13.86,0.1,1838,Sí
+991,Alejandro González,23,F,Santiago,Administración,12.48,2.4,1977,Sí
+992,Lucía Flores,19,F,Montevideo,Derecho,10.61,5.9,3513,No
+993,Valentina Ortega,23,F,Quito,Economía,13.43,3.6,1491,Sí
+994,Camila Rodríguez,32,F,Lima,Psicología,18.7,4.7,2321,Sí
+995,Santiago Ortega,25,F,Bogotá,Psicología,10.08,2.1,5783,No
+996,Martina Ortega,34,F,Bogotá,Ingeniería,15.23,5.3,1917,Sí
+997,Tomás Ramírez,18,F,Medellín,Medicina,15.33,3.0,2868,Sí
+998,Alejandro Sánchez,33,M,Santiago,Economía,15.81,1.8,3016,Sí
+999,Mateo Pérez,31,F,Montevideo,Economía,15.02,4.6,4393,Sí

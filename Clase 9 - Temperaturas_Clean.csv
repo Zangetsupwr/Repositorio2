@@ -1,0 +1,241 @@
+,mes,pais,ciudad,temp._mín_(°c),temp._media_(°c),temp._máx_(°c),mes_num
+0,Enero,Perú,Lima,20.0,24.0,27.0,1
+1,Enero,Perú,Arequipa,9.0,16.0,22.0,1
+2,Enero,Perú,Cusco,6.0,12.0,19.0,1
+3,Enero,Perú,Trujillo,17.0,20.0,22.0,1
+4,Febrero,Perú,Lima,21.0,25.0,28.0,2
+5,Febrero,Perú,Arequipa,9.0,17.0,22.0,2
+6,Febrero,Perú,Cusco,6.0,13.0,20.0,2
+7,Febrero,Perú,Trujillo,18.0,21.0,23.0,2
+8,Marzo,Perú,Lima,20.0,24.0,26.0,3
+9,Marzo,Perú,Arequipa,8.0,16.0,21.0,3
+10,Marzo,Perú,Cusco,5.0,12.0,19.0,3
+11,Marzo,Perú,Trujillo,17.0,20.0,22.0,3
+12,Abril,Perú,Lima,19.0,22.0,24.0,4
+13,Abril,Perú,Arequipa,7.0,15.0,22.0,4
+14,Abril,Perú,Cusco,4.0,11.0,18.0,4
+15,Abril,Perú,Trujillo,16.0,19.0,21.0,4
+16,Mayo,Perú,Lima,17.0,20.0,22.0,5
+17,Mayo,Perú,Arequipa,6.0,14.0,21.0,5
+18,Mayo,Perú,Cusco,3.0,10.0,17.0,5
+19,Mayo,Perú,Trujillo,15.0,18.0,20.0,5
+20,Junio,Perú,Lima,16.0,19.0,21.0,6
+21,Junio,Perú,Arequipa,5.0,13.0,20.0,6
+22,Junio,Perú,Cusco,2.0,9.0,16.0,6
+23,Junio,Perú,Trujillo,14.0,17.0,19.0,6
+24,Julio,Perú,Lima,15.0,18.0,20.0,7
+25,Julio,Perú,Arequipa,4.0,12.0,19.0,7
+26,Julio,Perú,Cusco,1.0,8.0,15.0,7
+27,Julio,Perú,Trujillo,13.0,16.0,18.0,7
+28,Agosto,Perú,Lima,15.0,18.0,20.0,8
+29,Agosto,Perú,Arequipa,4.0,12.0,19.0,8
+30,Agosto,Perú,Cusco,1.0,8.0,15.0,8
+31,Agosto,Perú,Trujillo,13.0,16.0,18.0,8
+32,Septiembre,Perú,Lima,16.0,19.0,21.0,9
+33,Septiembre,Perú,Arequipa,5.0,13.0,20.0,9
+34,Septiembre,Perú,Cusco,2.0,9.0,16.0,9
+35,Septiembre,Perú,Trujillo,14.0,17.0,19.0,9
+36,Octubre,Perú,Lima,17.0,20.0,22.0,10
+37,Octubre,Perú,Arequipa,6.0,14.0,21.0,10
+38,Octubre,Perú,Cusco,3.0,10.0,17.0,10
+39,Octubre,Perú,Trujillo,15.0,18.0,20.0,10
+40,Noviembre,Perú,Lima,18.0,21.0,23.0,11
+41,Noviembre,Perú,Arequipa,7.0,15.0,22.0,11
+42,Noviembre,Perú,Cusco,4.0,11.0,18.0,11
+43,Noviembre,Perú,Trujillo,16.0,19.0,21.0,11
+44,Diciembre,Perú,Lima,19.0,22.0,25.0,12
+45,Diciembre,Perú,Arequipa,8.0,16.0,23.0,12
+46,Diciembre,Perú,Cusco,5.0,12.0,19.0,12
+47,Diciembre,Perú,Trujillo,17.0,20.0,22.0,12
+48,Enero,España,Madrid,1.0,6.0,10.0,1
+49,Enero,España,Barcelona,5.0,9.0,13.0,1
+50,Enero,España,Valencia,6.0,10.0,16.0,1
+51,Enero,España,Sevilla,5.0,11.0,16.0,1
+52,Febrero,España,Madrid,2.0,8.0,13.0,2
+53,Febrero,España,Barcelona,6.0,10.0,14.0,2
+54,Febrero,España,Valencia,7.0,11.0,17.0,2
+55,Febrero,España,Sevilla,6.0,12.0,17.0,2
+56,Marzo,España,Madrid,4.0,11.0,17.0,3
+57,Marzo,España,Barcelona,8.0,12.0,16.0,3
+58,Marzo,España,Valencia,9.0,13.0,19.0,3
+59,Marzo,España,Sevilla,8.0,15.0,21.0,3
+60,Abril,España,Madrid,6.0,13.0,19.0,4
+61,Abril,España,Barcelona,10.0,14.0,18.0,4
+62,Abril,España,Valencia,11.0,15.0,21.0,4
+63,Abril,España,Sevilla,10.0,17.0,23.0,4
+64,Mayo,España,Madrid,10.0,17.0,23.0,5
+65,Mayo,España,Barcelona,13.0,17.0,21.0,5
+66,Mayo,España,Valencia,14.0,18.0,24.0,5
+67,Mayo,España,Sevilla,14.0,21.0,27.0,5
+68,Junio,España,Madrid,14.0,22.0,29.0,6
+69,Junio,España,Barcelona,17.0,21.0,25.0,6
+70,Junio,España,Valencia,18.0,23.0,29.0,6
+71,Junio,España,Sevilla,18.0,26.0,33.0,6
+72,Julio,España,Madrid,17.0,26.0,33.0,7
+73,Julio,España,Barcelona,20.0,24.0,28.0,7
+74,Julio,España,Valencia,21.0,26.0,32.0,7
+75,Julio,España,Sevilla,20.0,30.0,37.0,7
+76,Agosto,España,Madrid,17.0,25.0,32.0,8
+77,Agosto,España,Barcelona,21.0,25.0,29.0,8
+78,Agosto,España,Valencia,22.0,27.0,33.0,8
+79,Agosto,España,Sevilla,21.0,29.0,36.0,8
+80,Septiembre,España,Madrid,13.0,21.0,27.0,9
+81,Septiembre,España,Barcelona,18.0,22.0,26.0,9
+82,Septiembre,España,Valencia,18.0,24.0,30.0,9
+83,Septiembre,España,Sevilla,18.0,25.0,31.0,9
+84,Octubre,España,Madrid,9.0,15.0,20.0,10
+85,Octubre,España,Barcelona,13.0,18.0,22.0,10
+86,Octubre,España,Valencia,14.0,20.0,26.0,10
+87,Octubre,España,Sevilla,14.0,20.0,26.0,10
+88,Noviembre,España,Madrid,4.0,10.0,14.0,11
+89,Noviembre,España,Barcelona,9.0,13.0,17.0,11
+90,Noviembre,España,Valencia,10.0,15.0,20.0,11
+91,Noviembre,España,Sevilla,10.0,15.0,20.0,11
+92,Diciembre,España,Madrid,2.0,7.0,11.0,12
+93,Diciembre,España,Barcelona,6.0,10.0,14.0,12
+94,Diciembre,España,Valencia,7.0,11.0,16.0,12
+95,Diciembre,España,Sevilla,7.0,12.0,17.0,12
+96,Enero,China,Pekín,-9.0,-3.0,2.0,1
+97,Enero,China,Shanghái,2.0,5.0,8.0,1
+98,Enero,China,Guangzhou,10.0,13.0,18.0,1
+99,Enero,China,Chengdu,3.0,6.0,10.0,1
+100,Febrero,China,Pekín,-6.0,0.0,5.0,2
+101,Febrero,China,Shanghái,4.0,7.0,10.0,2
+102,Febrero,China,Guangzhou,12.0,15.0,20.0,2
+103,Febrero,China,Chengdu,5.0,8.0,12.0,2
+104,Marzo,China,Pekín,0.0,6.0,12.0,3
+105,Marzo,China,Shanghái,8.0,11.0,15.0,3
+106,Marzo,China,Guangzhou,15.0,18.0,23.0,3
+107,Marzo,China,Chengdu,9.0,12.0,17.0,3
+108,Abril,China,Pekín,7.0,14.0,21.0,4
+109,Abril,China,Shanghái,13.0,17.0,21.0,4
+110,Abril,China,Guangzhou,20.0,23.0,28.0,4
+111,Abril,China,Chengdu,14.0,17.0,22.0,4
+112,Mayo,China,Pekín,13.0,20.0,27.0,5
+113,Mayo,China,Shanghái,18.0,22.0,26.0,5
+114,Mayo,China,Guangzhou,24.0,27.0,32.0,5
+115,Mayo,China,Chengdu,18.0,21.0,26.0,5
+116,Junio,China,Pekín,18.0,25.0,31.0,6
+117,Junio,China,Shanghái,23.0,26.0,30.0,6
+118,Junio,China,Guangzhou,26.0,29.0,33.0,6
+119,Junio,China,Chengdu,21.0,24.0,29.0,6
+120,Julio,China,Pekín,22.0,27.0,32.0,7
+121,Julio,China,Shanghái,26.0,29.0,33.0,7
+122,Julio,China,Guangzhou,27.0,30.0,34.0,7
+123,Julio,China,Chengdu,24.0,27.0,31.0,7
+124,Agosto,China,Pekín,21.0,26.0,31.0,8
+125,Agosto,China,Shanghái,26.0,29.0,33.0,8
+126,Agosto,China,Guangzhou,27.0,30.0,34.0,8
+127,Agosto,China,Chengdu,23.0,26.0,30.0,8
+128,Septiembre,China,Pekín,15.0,21.0,26.0,9
+129,Septiembre,China,Shanghái,23.0,26.0,30.0,9
+130,Septiembre,China,Guangzhou,25.0,28.0,32.0,9
+131,Septiembre,China,Chengdu,20.0,23.0,27.0,9
+132,Octubre,China,Pekín,8.0,13.0,18.0,10
+133,Octubre,China,Shanghái,17.0,20.0,24.0,10
+134,Octubre,China,Guangzhou,21.0,24.0,28.0,10
+135,Octubre,China,Chengdu,15.0,18.0,22.0,10
+136,Noviembre,China,Pekín,-1.0,4.0,9.0,11
+137,Noviembre,China,Shanghái,10.0,13.0,17.0,11
+138,Noviembre,China,Guangzhou,15.0,18.0,23.0,11
+139,Noviembre,China,Chengdu,10.0,13.0,17.0,11
+140,Diciembre,China,Pekín,-7.0,-2.0,3.0,12
+141,Diciembre,China,Shanghái,4.0,7.0,11.0,12
+142,Diciembre,China,Guangzhou,11.0,14.0,19.0,12
+143,Diciembre,China,Chengdu,5.0,7.0,11.0,12
+144,Enero,Noruega,Oslo,-7.0,-4.0,-1.0,1
+145,Enero,Noruega,Bergen,0.0,2.0,4.0,1
+146,Enero,Noruega,Trondheim,-5.0,-2.0,1.0,1
+147,Enero,Noruega,Tromso,-6.0,-4.0,-2.0,1
+148,Febrero,Noruega,Oslo,-7.0,-3.0,0.0,2
+149,Febrero,Noruega,Bergen,0.0,2.0,5.0,2
+150,Febrero,Noruega,Trondheim,-5.0,-2.0,1.0,2
+151,Febrero,Noruega,Tromso,-6.0,-4.0,-1.0,2
+152,Marzo,Noruega,Oslo,-3.0,1.0,5.0,3
+153,Marzo,Noruega,Bergen,2.0,4.0,7.0,3
+154,Marzo,Noruega,Trondheim,-2.0,1.0,4.0,3
+155,Marzo,Noruega,Tromso,-3.0,0.0,2.0,3
+156,Abril,Noruega,Oslo,2.0,6.0,10.0,4
+157,Abril,Noruega,Bergen,4.0,6.0,9.0,4
+158,Abril,Noruega,Trondheim,2.0,5.0,8.0,4
+159,Abril,Noruega,Tromso,-1.0,2.0,5.0,4
+160,Mayo,Noruega,Oslo,7.0,12.0,17.0,5
+161,Mayo,Noruega,Bergen,8.0,11.0,14.0,5
+162,Mayo,Noruega,Trondheim,6.0,10.0,14.0,5
+163,Mayo,Noruega,Tromso,3.0,6.0,9.0,5
+164,Junio,Noruega,Oslo,11.0,16.0,21.0,6
+165,Junio,Noruega,Bergen,11.0,14.0,17.0,6
+166,Junio,Noruega,Trondheim,10.0,13.0,16.0,6
+167,Junio,Noruega,Tromso,8.0,11.0,14.0,6
+168,Julio,Noruega,Oslo,13.0,18.0,23.0,7
+169,Julio,Noruega,Bergen,13.0,16.0,19.0,7
+170,Julio,Noruega,Trondheim,12.0,15.0,18.0,7
+171,Julio,Noruega,Tromso,10.0,13.0,16.0,7
+172,Agosto,Noruega,Oslo,12.0,17.0,22.0,8
+173,Agosto,Noruega,Bergen,13.0,16.0,19.0,8
+174,Agosto,Noruega,Trondheim,11.0,14.0,17.0,8
+175,Agosto,Noruega,Tromso,9.0,12.0,15.0,8
+176,Septiembre,Noruega,Oslo,8.0,12.0,16.0,9
+177,Septiembre,Noruega,Bergen,10.0,13.0,16.0,9
+178,Septiembre,Noruega,Trondheim,9.0,12.0,15.0,9
+179,Septiembre,Noruega,Tromso,6.0,8.0,11.0,9
+180,Octubre,Noruega,Oslo,3.0,7.0,10.0,10
+181,Octubre,Noruega,Bergen,6.0,9.0,12.0,10
+182,Octubre,Noruega,Trondheim,4.0,7.0,10.0,10
+183,Octubre,Noruega,Tromso,1.0,3.0,5.0,10
+184,Noviembre,Noruega,Oslo,-2.0,1.0,4.0,11
+185,Noviembre,Noruega,Bergen,3.0,5.0,7.0,11
+186,Noviembre,Noruega,Trondheim,0.0,2.0,4.0,11
+187,Noviembre,Noruega,Tromso,-3.0,-1.0,1.0,11
+188,Diciembre,Noruega,Oslo,-6.0,-2.0,1.0,12
+189,Diciembre,Noruega,Bergen,1.0,3.0,5.0,12
+190,Diciembre,Noruega,Trondheim,-3.0,0.0,2.0,12
+191,Diciembre,Noruega,Tromso,-5.0,-3.0,-1.0,12
+192,Enero,Arabia Saudita,Riad,8.0,15.0,21.0,1
+193,Enero,Arabia Saudita,Yeda,19.0,24.0,29.0,1
+194,Enero,Arabia Saudita,Medina,11.0,18.0,24.0,1
+195,Enero,Arabia Saudita,Dammam,11.0,16.0,22.0,1
+196,Febrero,Arabia Saudita,Riad,10.0,18.0,25.0,2
+197,Febrero,Arabia Saudita,Yeda,20.0,25.0,30.0,2
+198,Febrero,Arabia Saudita,Medina,13.0,20.0,27.0,2
+199,Febrero,Arabia Saudita,Dammam,13.0,18.5,24.0,2
+200,Marzo,Arabia Saudita,Riad,14.0,21.5,29.0,3
+201,Marzo,Arabia Saudita,Yeda,22.0,27.0,32.0,3
+202,Marzo,Arabia Saudita,Medina,17.0,23.5,30.0,3
+203,Marzo,Arabia Saudita,Dammam,17.0,22.0,27.0,3
+204,Abril,Arabia Saudita,Riad,19.0,26.5,34.0,4
+205,Abril,Arabia Saudita,Yeda,25.0,29.5,34.0,4
+206,Abril,Arabia Saudita,Medina,21.0,28.0,35.0,4
+207,Abril,Arabia Saudita,Dammam,22.0,27.0,32.0,4
+208,Mayo,Arabia Saudita,Riad,24.0,32.0,39.0,5
+209,Mayo,Arabia Saudita,Yeda,27.0,31.0,36.0,5
+210,Mayo,Arabia Saudita,Medina,26.0,33.0,40.0,5
+211,Mayo,Arabia Saudita,Dammam,27.0,32.0,37.0,5
+212,Junio,Arabia Saudita,Riad,27.0,35.0,42.0,6
+213,Junio,Arabia Saudita,Yeda,29.0,32.0,36.0,6
+214,Junio,Arabia Saudita,Medina,29.0,36.0,43.0,6
+215,Junio,Arabia Saudita,Dammam,30.0,35.0,40.0,6
+216,Julio,Arabia Saudita,Riad,29.0,36.0,43.0,7
+217,Julio,Arabia Saudita,Yeda,30.0,33.0,37.0,7
+218,Julio,Arabia Saudita,Medina,30.0,37.0,44.0,7
+219,Julio,Arabia Saudita,Dammam,31.0,36.0,41.0,7
+220,Agosto,Arabia Saudita,Riad,29.0,36.0,43.0,8
+221,Agosto,Arabia Saudita,Yeda,30.0,34.0,38.0,8
+222,Agosto,Arabia Saudita,Medina,30.0,37.0,44.0,8
+223,Agosto,Arabia Saudita,Dammam,31.0,36.0,41.0,8
+224,Septiembre,Arabia Saudita,Riad,26.0,33.0,40.0,9
+225,Septiembre,Arabia Saudita,Yeda,29.0,32.0,37.0,9
+226,Septiembre,Arabia Saudita,Medina,28.0,34.0,41.0,9
+227,Septiembre,Arabia Saudita,Dammam,29.0,34.0,39.0,9
+228,Octubre,Arabia Saudita,Riad,21.0,28.0,35.0,10
+229,Octubre,Arabia Saudita,Yeda,27.0,30.0,35.0,10
+230,Octubre,Arabia Saudita,Medina,23.0,30.0,37.0,10
+231,Octubre,Arabia Saudita,Dammam,25.0,30.0,35.0,10
+232,Noviembre,Arabia Saudita,Riad,15.0,22.0,29.0,11
+233,Noviembre,Arabia Saudita,Yeda,24.0,28.0,32.0,11
+234,Noviembre,Arabia Saudita,Medina,17.0,23.5,30.0,11
+235,Noviembre,Arabia Saudita,Dammam,20.0,25.0,30.0,11
+236,Diciembre,Arabia Saudita,Riad,10.0,16.5,23.0,12
+237,Diciembre,Arabia Saudita,Yeda,21.0,25.5,30.0,12
+238,Diciembre,Arabia Saudita,Medina,12.0,18.5,25.0,12
+239,Diciembre,Arabia Saudita,Dammam,15.0,20.0,25.0,12
